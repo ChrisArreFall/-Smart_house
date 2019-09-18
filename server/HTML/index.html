@@ -70,9 +70,30 @@
 
 <body>
   <div style="display: block; margin-left: auto; margin-right: auto;">
-    <img src="src/firstFloor.png" class="center">
-    <img src="src/secondFloor.png" class="center">
-    <button type="button" class="btnLightBR">Light BR</button>
+    <img src="firstFloor.png" class="center">
+    <img src="secondFloor.png" class="center">
+    <button type="button" class="btnLightBR" onclick=httpPOST()>Light BR</button>
+    <script>
+        function httpPOST(){
+            var data = "000000001";
+
+            var xhr = new XMLHttpRequest();
+            xhr.withCredentials = true;
+
+            xhr.addEventListener("readystatechange", function () {
+            if (this.readyState === 4) {
+                console.log(this.responseText);
+            }
+            });
+
+            xhr.open("POST", "http://192.168.100.93:3000");
+            xhr.setRequestHeader("cache-control", "no-cache");
+            xhr.setRequestHeader("Postman-Token", "bb2d356c-4f5a-4baa-91eb-a6a9bf0a238d");
+
+            xhr.send(data);
+            console.log("Printed!!!")
+        }
+    </script>
     <button type="button" class="btnLightMBR">Light Mastre BR</button>
     <button type="button" class="btnLightKitchen">Light Kitchen</button>
     <button type="button" class="btnLightDR">Light Dinning Room</button>
@@ -81,6 +102,7 @@
     <button type="button" class="btnDoorF">Door Front</button>
     <button type="button" class="btnDoorBR">Door BR</button>
     <button type="button" class="btnDoorMBR">Door MBR</button>
+
   </div>
 </body>
 </html>
