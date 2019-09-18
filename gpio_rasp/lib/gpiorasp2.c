@@ -131,6 +131,15 @@ int digitalWrite(int pin, int value) {
 }
 
 /**
+ * Take a picture
+ */
+int takePic() {
+	int imgStatus;
+    imgStatus = system("fswebcam --no-banner $DATE.jpg");
+	return imgStatus;
+}
+
+/**
  * Generate a blink in a given pin, with a given duration and frequency
  * duration: number of blinks
  * freq: frequency in seconds
