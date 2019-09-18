@@ -51,6 +51,7 @@ int listenfd, clients[CONNMAX];
 void error(char *);
 void startServer(char *);
 void respond(int);
+void execute(int);
 
 int main(int argc, char* argv[])
 {
@@ -146,7 +147,7 @@ int main(int argc, char* argv[])
 
 		// Read signals
 		int readfd = digitalRead(DFRONT);
-		int readbd = digitalRead(DBACK);
+		int readb = digitalRead(DBACK);
 		int readmbrd = digitalRead(DMASTERBEDROOM);
 		int readbd = digitalRead(DBEDROOM);
 		int readldr = digitalRead(LDINNIGROOM);
@@ -243,7 +244,7 @@ void respond(int n)
 	else    // message received
 	{
 		printf("%s", mesg);
-		execute(mesg)
+		execute((int) mesg);
 		reqline[0] = strtok (mesg, " \t\n");
 		if ( strncmp(reqline[0], "GET\0", 4)==0 )
 		{
