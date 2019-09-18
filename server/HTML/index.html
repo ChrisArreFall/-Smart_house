@@ -72,10 +72,18 @@
   <div style="display: block; margin-left: auto; margin-right: auto;">
     <img src="firstFloor.png" class="center">
     <img src="secondFloor.png" class="center">
-    <button type="button" class="btnLightBR" onclick=httpPOST()>Light BR</button>
+    <button type="button" class="btnLightBR" onclick=httpPOST(0)>Light BR</button>
+    <button type="button" class="btnLightMBR" onclick=httpPOST(1)>Light Master BR</button>
+    <button type="button" class="btnLightKitchen" onclick=httpPOST(2)>Light Kitchen</button>
+    <button type="button" class="btnLightDR" onclick=httpPOST(3)>Light Dinning Room</button>
+    <button type="button" class="btnLightLR" onclick=httpPOST(4)>Light Living Room</button>
+    <button type="button" class="btnDoorB" onclick=httpPOST(5)>Door Back</button>
+    <button type="button" class="btnDoorF" onclick=httpPOST(6)>Door Front</button>
+    <button type="button" class="btnDoorBR" onclick=httpPOST(7)>Door BR</button>
+    <button type="button" class="btnDoorMBR"onclick=httpPOST(8)>Door MBR</button>
+
     <script>
-        function httpPOST(){
-            var data = "000000001";
+        function httpPOST(data){
 
             var xhr = new XMLHttpRequest();
             xhr.withCredentials = true;
@@ -86,7 +94,7 @@
             }
             });
 
-            xhr.open("POST", "http://192.168.100.93:3000");
+            xhr.open("POST", "http://192.168.100.92:3000");
             xhr.setRequestHeader("cache-control", "no-cache");
             xhr.setRequestHeader("Postman-Token", "bb2d356c-4f5a-4baa-91eb-a6a9bf0a238d");
 
@@ -94,14 +102,6 @@
             console.log("Printed!!!")
         }
     </script>
-    <button type="button" class="btnLightMBR">Light Mastre BR</button>
-    <button type="button" class="btnLightKitchen">Light Kitchen</button>
-    <button type="button" class="btnLightDR">Light Dinning Room</button>
-    <button type="button" class="btnLightLR">Light Living Room</button>
-    <button type="button" class="btnDoorB">Door Back</button>
-    <button type="button" class="btnDoorF">Door Front</button>
-    <button type="button" class="btnDoorBR">Door BR</button>
-    <button type="button" class="btnDoorMBR">Door MBR</button>
 
   </div>
 </body>

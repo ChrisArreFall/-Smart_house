@@ -10,8 +10,41 @@
 #include<signal.h>
 #include<fcntl.h>
 
+// Include GPIO control
+#include <gpiorasp2.h>
+
 #define CONNMAX 1000
 #define BYTES 1024
+
+// Define the pin number for each output
+// the L at the begining means light and the D door
+// B stads for button
+#define LLIVINGROOM 5
+#define LDINNIGROOM 6
+#define LKITCHEN 13
+#define LMASTERBEDROOM 19
+#define LBEDROOM 26
+#define BLIVINGROOM 25
+#define BDINIGROOM 8
+#define BKITCHEN 7
+#define BMASTERBEDROOM 9
+#define BBEDROOM 11
+#define DFRONT 2
+#define DBACK 3
+#define DBEDROOM 4
+#define DMASTERBEDROOM 14
+
+// State variables
+int llrstate = 0;
+int ldrstate = 0;
+int lkstate = 0;
+int lmbrstate = 0;
+int lbrstate = 0;
+int dbstate = 0;
+int dfstate = 0;
+int dbrstate = 0;
+int dmbrstate = 0;
+
 
 char *ROOT;
 int listenfd, clients[CONNMAX];
@@ -31,6 +64,41 @@ int main(int argc, char* argv[])
 	strcpy(PORT,"10000");
 
 	int slot=0;
+
+	// Enable pins
+	GPIOExport(LLIVINGROOM);
+	GPIOExport(LDINNIGROOM);
+	GPIOExport(LKITCHEN);
+	GPIOExport(LMASTERBEDROOM);
+	GPIOExport(LBEDROOM);
+	GPIOExport(BLIVINGROOM);
+	GPIOExport(BDINIGROOM);
+	GPIOExport(BKITCHEN);
+	GPIOExport(BMASTERBEDROOM);
+	GPIOExport(BBEDROOM);
+	GPIOExport(DFRONT);
+	GPIOExport(DBEDROOM);
+	GPIOExport(DMASTERBEDROOM);
+	GPIOExport(DBACK);
+
+	// Set GPIO mode
+	pinMode(LLIVINGROOM, OUT);
+	pinMode(LDINNIGROOM, OUT);
+	pinMode(LKITCHEN, OUT);
+	pinMode(LMASTERBEDROOM, OUT);
+	pinMode(LBEDROOM, OUT);
+	pinMode(BLIVINGROOM, IN);
+	pinMode(BDINIGROOM, IN);
+	pinMode(BKITCHEN, IN);
+	pinMode(BMASTERBEDROOM, IN);
+	pinMode(BBEDROOM, IN);
+	pinMode(DFRONT, IN);
+	pinMode(DBEDROOM, IN);
+	pinMode(DMASTERBEDROOM, IN);
+	pinMode(DBACK, IN);
+	
+
+
 
 	//Parsing the command line arguments
 	while ((c = getopt (argc, argv, "p:r:")) != -1)
@@ -75,6 +143,46 @@ int main(int argc, char* argv[])
 		}
 
 		while (clients[slot]!=-1) slot = (slot+1)%CONNMAX;
+
+		// Read signals
+		int readfd = digitalRead(DFRONT);
+		int readbd = digitalRead(DBACK);
+		int readmbrd = digitalRead(DMASTERBEDROOM);
+		int readbd = digitalRead(DBEDROOM);
+		int readldr = digitalRead(LDINNIGROOM);
+		int readllr = digitalRead(LLIVINGROOM);
+		int readlk = digitalRead(LKITCHEN);
+		int readlmbr = digitalRead(LMASTERBEDROOM);
+		int readlbr = digitalRead(LBEDROOM);
+
+		// Change the dinning room light
+		if (readldr != 0){
+			ldrstate = !ldrstate;
+			digitalWrite(LDINNIGROOM, ldrstate);
+		}
+		// Change the living room light
+		if (readllr != 0){
+			llrstate = !llrstate;
+			digitalWrite(LLIVINGROOM, llrstate);
+		}
+		// Change the kitchen light
+		if (readlk != 0){
+			lkstate = !lkstate;
+			digitalWrite(LKITCHEN, lkstate);
+		}
+		// Change the bedroom light
+		if (readlbr != 0){
+			lbrstate = !lbrstate;
+			digitalWrite(LBEDROOM, lbrstate);
+		}
+		// Change the master bedroom light
+		if (readlmbr != 0){
+			lmbrstate = !lmbrstate;
+			digitalWrite(LMASTERBEDROOM, lmbrstate);
+		}
+
+		
+
 	}
 
 	return 0;
@@ -135,6 +243,7 @@ void respond(int n)
 	else    // message received
 	{
 		printf("%s", mesg);
+		execute(mesg)
 		reqline[0] = strtok (mesg, " \t\n");
 		if ( strncmp(reqline[0], "GET\0", 4)==0 )
 		{
@@ -169,3 +278,91 @@ void respond(int n)
 	close(clients[n]);
 	clients[n]=-1;
 }
+
+
+
+
+
+
+/**
+ * Recive the msg from the server and execute the desired action
+ * command: Action to execute
+ */
+void execute(int command){
+	
+	switch (command)
+	{
+	case 0:
+		// Write on bedroom light
+		lbrstate = !lbrstate;
+		digitalWrite(LBEDROOM, lbrstate);
+		break;
+	case 1:
+		// Write on master bedroom light
+		lmbrstate = !lmbrstate;
+		digitalWrite(LMASTERBEDROOM, lmbrstate);
+		break;
+	case 2:
+		// Write on kitchen light
+		lkstate = !lkstate;
+		digitalWrite(LKITCHEN, lkstate);
+		break;
+	case 3:
+		// Write on dining room light
+		ldrstate = !ldrstate;
+		digitalWrite(LDINNIGROOM, ldrstate);
+		break;
+	case 4:
+		// Write on living room light
+		llrstate = !llrstate;
+		digitalWrite(LLIVINGROOM, llrstate);
+		break;
+	case 5:
+		// Negate the state of the back door
+		dbstate = !dbstate;
+		break;
+	case 6:
+		// Negate the state of the front door
+		dfstate = !dfstate;
+		break;
+	case 7:
+		// Negate the state of the bedroom door
+		dbrstate = !dbrstate;
+		break;
+	case 8:
+		// Negate the state of the door
+		dmbrstate = !dmbrstate;
+		break;
+	
+	default:
+		break;
+	}
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
