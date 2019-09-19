@@ -99,10 +99,9 @@ int main(int argc, char* argv[])
 	pinMode(DBACK, IN);
 	
 
-
-
 	//Parsing the command line arguments
-	while ((c = getopt (argc, argv, "p:r:")) != -1)
+	while ((c = getopt (argc, argv, "p:r:")) != -1) {
+
 		switch (c)
 		{
 			case 'r':
@@ -113,11 +112,15 @@ int main(int argc, char* argv[])
 				strcpy(PORT,optarg);
 				break;
 			case '?':
-				fprintf(stderr,"Wrong arguments given!!!\n");
 				exit(1);
 			default:
-				exit(1);
+				break;
 		}
+
+		if (c != 'r' && c != 'p') {
+			break;
+		}
+	}
 	
 	printf("Server started at port no. %s%s%s with root directory as %s%s%s\n","\033[92m",PORT,"\033[0m","\033[92m",ROOT,"\033[0m");
 	// Setting all elements to -1: signifies there is no client connected
@@ -155,6 +158,20 @@ int main(int argc, char* argv[])
 		int readlk = digitalRead(LKITCHEN);
 		int readlmbr = digitalRead(LMASTERBEDROOM);
 		int readlbr = digitalRead(LBEDROOM);
+
+		printf("FRONT DOOR: %d \n" , readfd);
+		printf("BACK DOOR: %d \n" , readb);
+		printf("MASTER BR DOOR: %d \n" , readmbrd);
+		printf("BR DOOR: %d \n" , readbd);
+		printf("DINNING ROOM LIGHT: %d \n" , readldr);
+		printf("LIVING ROOM LIGHT: %d \n" , readllr);
+		printf("KITCHEN LIGHT: %d \n" , readlk);
+		printf("MASTER BR LIGHT: %d \n" , readlmbr);
+		printf("BR LIGHT: %d \n" , readlbr);
+
+		printf("------------------------------------------------------- \n");
+
+
 
 		// Change the dinning room light
 		if (readldr != 0){
@@ -243,7 +260,9 @@ void respond(int n)
 		fprintf(stderr,"Client disconnected upexpectedly.\n");
 	else    // message received
 	{
+		printf("MESSAGE FROM CLIENT: ");
 		printf("%s", mesg);
+		printf(" \n");
 		execute((int) mesg);
 		reqline[0] = strtok (mesg, " \t\n");
 		if ( strncmp(reqline[0], "GET\0", 4)==0 )
@@ -296,46 +315,56 @@ void execute(int command){
 	case 0:
 		// Write on bedroom light
 		lbrstate = !lbrstate;
+		printf("BR LIGHT \n");
 		digitalWrite(LBEDROOM, lbrstate);
 		break;
 	case 1:
 		// Write on master bedroom light
 		lmbrstate = !lmbrstate;
+		printf("MASTER BR LIGHT \n");
 		digitalWrite(LMASTERBEDROOM, lmbrstate);
 		break;
 	case 2:
 		// Write on kitchen light
 		lkstate = !lkstate;
+		printf("KITCHEN  LIGHT \n");
 		digitalWrite(LKITCHEN, lkstate);
 		break;
 	case 3:
 		// Write on dining room light
 		ldrstate = !ldrstate;
+		printf("DINNING ROOM LIGHT \n");
 		digitalWrite(LDINNIGROOM, ldrstate);
 		break;
 	case 4:
 		// Write on living room light
 		llrstate = !llrstate;
+		printf("LIVING ROOM LIGHT \n");
 		digitalWrite(LLIVINGROOM, llrstate);
 		break;
 	case 5:
 		// Negate the state of the back door
 		dbstate = !dbstate;
+		printf("BACK DOOR \n");
 		break;
 	case 6:
 		// Negate the state of the front door
 		dfstate = !dfstate;
+		printf("FRONT DOOR \n");
 		break;
 	case 7:
 		// Negate the state of the bedroom door
 		dbrstate = !dbrstate;
+		printf("BR DOOR \n");
 		break;
 	case 8:
 		// Negate the state of the door
 		dmbrstate = !dmbrstate;
+		printf("MASTER BR DOOR \n");
 		break;
 	
 	default:
+		printf("DEFAULT OPTION BUTTON \n");
 		break;
 	}
 
