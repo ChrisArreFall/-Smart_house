@@ -135,7 +135,7 @@ int digitalWrite(int pin, int value) {
  */
 int takePic() {
 	int imgStatus;
-    imgStatus = system("fswebcam --no-banner $DATE.jpg");
+    imgStatus = system("fswebcam --no-banner images/$DATE.jpg");
 	return imgStatus;
 }
 
