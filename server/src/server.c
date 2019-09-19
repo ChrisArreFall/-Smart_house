@@ -9,6 +9,7 @@
 #include<netdb.h>
 #include<signal.h>
 #include<fcntl.h>
+#include<pthread.h>
 
 // Include GPIO control
 #include <gpiorasp2.h>
@@ -52,19 +53,27 @@ void error(char *);
 void startServer(char *);
 void respond(int);
 void execute(int);
+void *gpioInit(void *vargp);
+
+pthread_mutex_t lock;
 
 int main(int argc, char* argv[])
 {
-	struct sockaddr_in clientaddr;
-	socklen_t addrlen;
-	char c;    
-	
-	//Default Values PATH = ~/ and PORT=10000
-	char PORT[6];
-	ROOT = getenv("PWD");
-	strcpy(PORT,"10000");
-
-	int slot=0;
+	// Unexport pin GPIO
+	GPIOUnexport(LLIVINGROOM);
+	GPIOUnexport(LDINNIGROOM);
+	GPIOUnexport(LKITCHEN);
+	GPIOUnexport(LMASTERBEDROOM);
+	GPIOUnexport(LBEDROOM);
+	GPIOUnexport(BLIVINGROOM);
+	GPIOUnexport(BDINIGROOM);
+	GPIOUnexport(BKITCHEN);
+	GPIOUnexport(BMASTERBEDROOM);
+	GPIOUnexport(BBEDROOM);
+	GPIOUnexport(DFRONT);
+	GPIOUnexport(DBEDROOM);
+	GPIOUnexport(DMASTERBEDROOM);
+	GPIOUnexport(DBACK);
 
 	// Enable pins
 	GPIOExport(LLIVINGROOM);
@@ -97,7 +106,22 @@ int main(int argc, char* argv[])
 	pinMode(DBEDROOM, IN);
 	pinMode(DMASTERBEDROOM, IN);
 	pinMode(DBACK, IN);
+
+	pthread_t thread_gpio;
+	pthread_create(&thread_gpio, NULL, gpioInit, NULL);
 	
+
+
+	struct sockaddr_in clientaddr;
+	socklen_t addrlen;
+	char c;    
+	
+	//Default Values PATH = ~/ and PORT=10000
+	char PORT[6];
+	ROOT = getenv("PWD");
+	strcpy(PORT,"10000");
+
+	int slot=0;	
 
 	//Parsing the command line arguments
 	while ((c = getopt (argc, argv, "p:r:")) != -1) {
@@ -147,59 +171,6 @@ int main(int argc, char* argv[])
 		}
 
 		while (clients[slot]!=-1) slot = (slot+1)%CONNMAX;
-
-		// Read signals
-		int readfd = digitalRead(DFRONT);
-		int readb = digitalRead(DBACK);
-		int readmbrd = digitalRead(DMASTERBEDROOM);
-		int readbd = digitalRead(DBEDROOM);
-		int readldr = digitalRead(LDINNIGROOM);
-		int readllr = digitalRead(LLIVINGROOM);
-		int readlk = digitalRead(LKITCHEN);
-		int readlmbr = digitalRead(LMASTERBEDROOM);
-		int readlbr = digitalRead(LBEDROOM);
-
-		printf("FRONT DOOR: %d \n" , readfd);
-		printf("BACK DOOR: %d \n" , readb);
-		printf("MASTER BR DOOR: %d \n" , readmbrd);
-		printf("BR DOOR: %d \n" , readbd);
-		printf("DINNING ROOM LIGHT: %d \n" , readldr);
-		printf("LIVING ROOM LIGHT: %d \n" , readllr);
-		printf("KITCHEN LIGHT: %d \n" , readlk);
-		printf("MASTER BR LIGHT: %d \n" , readlmbr);
-		printf("BR LIGHT: %d \n" , readlbr);
-
-		printf("------------------------------------------------------- \n");
-
-
-
-		// Change the dinning room light
-		if (readldr != 0){
-			ldrstate = !ldrstate;
-			digitalWrite(LDINNIGROOM, ldrstate);
-		}
-		// Change the living room light
-		if (readllr != 0){
-			llrstate = !llrstate;
-			digitalWrite(LLIVINGROOM, llrstate);
-		}
-		// Change the kitchen light
-		if (readlk != 0){
-			lkstate = !lkstate;
-			digitalWrite(LKITCHEN, lkstate);
-		}
-		// Change the bedroom light
-		if (readlbr != 0){
-			lbrstate = !lbrstate;
-			digitalWrite(LBEDROOM, lbrstate);
-		}
-		// Change the master bedroom light
-		if (readlmbr != 0){
-			lmbrstate = !lmbrstate;
-			digitalWrite(LMASTERBEDROOM, lmbrstate);
-		}
-
-		
 
 	}
 
@@ -281,14 +252,26 @@ void respond(int n)
 				strcpy(path, ROOT);
 				strcpy(&path[strlen(ROOT)], reqline[1]);
 				printf("file: %s\n", path);
+				if((int)mesg==10){
+					//aqui vamos al html de las imagenes
 
-				if ( (fd=open(path, O_RDONLY))!=-1 )    //FILE FOUND
-				{
-					send(clients[n], "HTTP/1.0 200 OK\n\n", 17, 0);
-					while ( (bytes_read=read(fd, data_to_send, BYTES))>0 )
-						write (clients[n], data_to_send, bytes_read);
+					if ( (fd=open("/images.html", O_RDONLY))!=-1 )    //FILE FOUND
+					{
+						send(clients[n], "HTTP/1.0 200 OK\n\n", 17, 0);
+						while ( (bytes_read=read(fd, data_to_send, BYTES))>0 )
+							write (clients[n], data_to_send, bytes_read);
+					}
+					else    write(clients[n], "HTTP/1.0 404 Not Found\n", 23); //FILE NOT FOUND
 				}
-				else    write(clients[n], "HTTP/1.0 404 Not Found\n", 23); //FILE NOT FOUND
+				else{
+					if ( (fd=open(path, O_RDONLY))!=-1 )    //FILE FOUND
+					{
+						send(clients[n], "HTTP/1.0 200 OK\n\n", 17, 0);
+						while ( (bytes_read=read(fd, data_to_send, BYTES))>0 )
+							write (clients[n], data_to_send, bytes_read);
+					}
+					else    write(clients[n], "HTTP/1.0 404 Not Found\n", 23); //FILE NOT FOUND
+				}
 			}
 		}
 	}
@@ -309,90 +292,143 @@ void respond(int n)
  * command: Action to execute
  */
 void execute(int command){
-	
-	switch (command)
-	{
-	case 0:
-		// Write on bedroom light
-		lbrstate = !lbrstate;
-		printf("BR LIGHT \n");
-		digitalWrite(LBEDROOM, lbrstate);
-		break;
-	case 1:
-		// Write on master bedroom light
-		lmbrstate = !lmbrstate;
-		printf("MASTER BR LIGHT \n");
-		digitalWrite(LMASTERBEDROOM, lmbrstate);
-		break;
-	case 2:
-		// Write on kitchen light
-		lkstate = !lkstate;
-		printf("KITCHEN  LIGHT \n");
-		digitalWrite(LKITCHEN, lkstate);
-		break;
-	case 3:
-		// Write on dining room light
-		ldrstate = !ldrstate;
-		printf("DINNING ROOM LIGHT \n");
-		digitalWrite(LDINNIGROOM, ldrstate);
-		break;
-	case 4:
-		// Write on living room light
-		llrstate = !llrstate;
-		printf("LIVING ROOM LIGHT \n");
-		digitalWrite(LLIVINGROOM, llrstate);
-		break;
-	case 5:
-		// Negate the state of the back door
-		dbstate = !dbstate;
-		printf("BACK DOOR \n");
-		break;
-	case 6:
-		// Negate the state of the front door
-		dfstate = !dfstate;
-		printf("FRONT DOOR \n");
-		break;
-	case 7:
-		// Negate the state of the bedroom door
-		dbrstate = !dbrstate;
-		printf("BR DOOR \n");
-		break;
-	case 8:
-		// Negate the state of the door
-		dmbrstate = !dmbrstate;
-		printf("MASTER BR DOOR \n");
-		break;
-	
-	default:
-		printf("DEFAULT OPTION BUTTON \n");
-		break;
+	pthread_mutex_lock(&lock);
+	switch (command){
+		case 0:
+			// Write on bedroom light
+			lbrstate = !lbrstate;
+			printf("BR LIGHT \n");
+			digitalWrite(LBEDROOM, lbrstate);
+			break;
+		case 1:
+			// Write on master bedroom light
+			lmbrstate = !lmbrstate;
+			printf("MASTER BR LIGHT \n");
+			digitalWrite(LMASTERBEDROOM, lmbrstate);
+			break;
+		case 2:
+			// Write on kitchen light
+			lkstate = !lkstate;
+			printf("KITCHEN  LIGHT \n");
+			digitalWrite(LKITCHEN, lkstate);
+			break;
+		case 3:
+			// Write on dining room light
+			ldrstate = !ldrstate;
+			printf("DINNING ROOM LIGHT \n");
+			digitalWrite(LDINNIGROOM, ldrstate);
+			break;
+		case 4:
+			// Write on living room light
+			llrstate = !llrstate;
+			printf("LIVING ROOM LIGHT \n");
+			digitalWrite(LLIVINGROOM, llrstate);
+			break;
+		case 5:
+			// Negate the state of the back door
+			dbstate = !dbstate;
+			printf("BACK DOOR \n");
+			break;
+		case 6:
+			// Negate the state of the front door
+			dfstate = !dfstate;
+			printf("FRONT DOOR \n");
+			break;
+		case 7:
+			// Negate the state of the bedroom door
+			dbrstate = !dbrstate;
+			printf("BR DOOR \n");
+			break;
+		case 8:
+			// Negate the state of the door
+			dmbrstate = !dmbrstate;
+			printf("MASTER BR DOOR \n");
+			break;
+		
+		default:
+			printf("DEFAULT OPTION BUTTON \n");
+			break;
 	}
+	pthread_mutex_unlock(&lock);
 
 }
 
+/**
+ * Thread function to monitor state varibles from button
+ */
+void *gpioInit(void *vargp) {
+
+	while(1) {
+
+	// Read signals
+		int readfd = digitalRead(DFRONT);
+		int readb = digitalRead(DBACK);
+		int readmbrd = digitalRead(DMASTERBEDROOM);
+		int readbd = digitalRead(DBEDROOM);
+		int readldr = digitalRead(BDINIGROOM);
+		int readllr = digitalRead(BLIVINGROOM);
+		int readlk = digitalRead(BKITCHEN);
+		int readlmbr = digitalRead(BMASTERBEDROOM);
+		int readlbr = digitalRead(BBEDROOM);
+
+		printf("FRONT DOOR: %d \n" , readfd);
+		printf("BACK DOOR: %d \n" , readb);
+		printf("MASTER BR DOOR: %d \n" , readmbrd);
+		printf("BR DOOR: %d \n" , readbd);
+		printf("DINNING ROOM LIGHT: %d \n" , readldr);
+		printf("LIVING ROOM LIGHT: %d \n" , readllr);
+		printf("KITCHEN LIGHT: %d \n" , readlk);
+		printf("MASTER BR LIGHT: %d \n" , readlmbr);
+		printf("BR LIGHT: %d \n" , readlbr);
+
+		printf("------------------------------------------------------- \n");
 
 
+		pthread_mutex_lock(&lock);
+		// Change the dinning room light
+		if (readldr != 0){
+			ldrstate = !ldrstate;
+			digitalWrite(LDINNIGROOM, ldrstate);
+		}
+		// Change the living room light
+		if (readllr != 0){
+			llrstate = !llrstate;
+			digitalWrite(LLIVINGROOM, llrstate);
+		}
+		// Change the kitchen light
+		if (readlk != 0){
+			lkstate = !lkstate;
+			digitalWrite(LKITCHEN, lkstate);
+		}
+		// Change the bedroom light
+		if (readlbr != 0){
+			lbrstate = !lbrstate;
+			digitalWrite(LBEDROOM, lbrstate);
+		}
+		// Change the master bedroom light
+		if (readlmbr != 0){
+			lmbrstate = !lmbrstate;
+			digitalWrite(LMASTERBEDROOM, lmbrstate);
+		}
 
+		// Change the front door state
+		if (readfd != 0){
+			dfstate = !dfstate;
+		}
+		// Change the back door state
+		if (readb != 0){
+			dbstate = !dbstate;
+		}
+		// Change the master bedroom door state
+		if (readmbrd != 0){
+			dmbrstate = !dmbrstate;
+		}
+		// Change the bedroom door state
+		if (readbd != 0){
+			dbrstate = !dbrstate;
+		}
+		pthread_mutex_unlock(&lock);
+		sleep(1);
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+	}
+}

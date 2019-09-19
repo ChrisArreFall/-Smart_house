@@ -114,6 +114,16 @@ server.o: ../../src/server.c \
  /opt/poky/2.5.1/sysroots/cortexa7hf-neon-vfpv4-poky-linux-gnueabi/usr/include/bits/fcntl.h \
  /opt/poky/2.5.1/sysroots/cortexa7hf-neon-vfpv4-poky-linux-gnueabi/usr/include/bits/fcntl-32.h \
  /opt/poky/2.5.1/sysroots/cortexa7hf-neon-vfpv4-poky-linux-gnueabi/usr/include/bits/fcntl-linux.h \
+ /opt/poky/2.5.1/sysroots/cortexa7hf-neon-vfpv4-poky-linux-gnueabi/usr/include/pthread.h \
+ /opt/poky/2.5.1/sysroots/cortexa7hf-neon-vfpv4-poky-linux-gnueabi/usr/include/sched.h \
+ /opt/poky/2.5.1/sysroots/cortexa7hf-neon-vfpv4-poky-linux-gnueabi/usr/include/bits/sched.h \
+ /opt/poky/2.5.1/sysroots/cortexa7hf-neon-vfpv4-poky-linux-gnueabi/usr/include/bits/cpu-set.h \
+ /opt/poky/2.5.1/sysroots/cortexa7hf-neon-vfpv4-poky-linux-gnueabi/usr/include/time.h \
+ /opt/poky/2.5.1/sysroots/cortexa7hf-neon-vfpv4-poky-linux-gnueabi/usr/include/bits/time.h \
+ /opt/poky/2.5.1/sysroots/cortexa7hf-neon-vfpv4-poky-linux-gnueabi/usr/include/bits/types/struct_tm.h \
+ /opt/poky/2.5.1/sysroots/cortexa7hf-neon-vfpv4-poky-linux-gnueabi/usr/include/bits/types/struct_itimerspec.h \
+ /opt/poky/2.5.1/sysroots/cortexa7hf-neon-vfpv4-poky-linux-gnueabi/usr/include/bits/setjmp.h \
+ /opt/poky/2.5.1/sysroots/cortexa7hf-neon-vfpv4-poky-linux-gnueabi/usr/include/bits/setjmp-32.h \
  ../../include/gpiorasp2.h
 
 /opt/poky/2.5.1/sysroots/cortexa7hf-neon-vfpv4-poky-linux-gnueabi/usr/include/stdc-predef.h:
@@ -345,5 +355,25 @@ server.o: ../../src/server.c \
 /opt/poky/2.5.1/sysroots/cortexa7hf-neon-vfpv4-poky-linux-gnueabi/usr/include/bits/fcntl-32.h:
 
 /opt/poky/2.5.1/sysroots/cortexa7hf-neon-vfpv4-poky-linux-gnueabi/usr/include/bits/fcntl-linux.h:
+
+/opt/poky/2.5.1/sysroots/cortexa7hf-neon-vfpv4-poky-linux-gnueabi/usr/include/pthread.h:
+
+/opt/poky/2.5.1/sysroots/cortexa7hf-neon-vfpv4-poky-linux-gnueabi/usr/include/sched.h:
+
+/opt/poky/2.5.1/sysroots/cortexa7hf-neon-vfpv4-poky-linux-gnueabi/usr/include/bits/sched.h:
+
+/opt/poky/2.5.1/sysroots/cortexa7hf-neon-vfpv4-poky-linux-gnueabi/usr/include/bits/cpu-set.h:
+
+/opt/poky/2.5.1/sysroots/cortexa7hf-neon-vfpv4-poky-linux-gnueabi/usr/include/time.h:
+
+/opt/poky/2.5.1/sysroots/cortexa7hf-neon-vfpv4-poky-linux-gnueabi/usr/include/bits/time.h:
+
+/opt/poky/2.5.1/sysroots/cortexa7hf-neon-vfpv4-poky-linux-gnueabi/usr/include/bits/types/struct_tm.h:
+
+/opt/poky/2.5.1/sysroots/cortexa7hf-neon-vfpv4-poky-linux-gnueabi/usr/include/bits/types/struct_itimerspec.h:
+
+/opt/poky/2.5.1/sysroots/cortexa7hf-neon-vfpv4-poky-linux-gnueabi/usr/include/bits/setjmp.h:
+
+/opt/poky/2.5.1/sysroots/cortexa7hf-neon-vfpv4-poky-linux-gnueabi/usr/include/bits/setjmp-32.h:
 
 ../../include/gpiorasp2.h:

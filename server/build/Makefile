@@ -247,7 +247,7 @@ LD = arm-poky-linux-gnueabi-ld  --sysroot=/opt/poky/2.5.1/sysroots/cortexa7hf-ne
 LDFLAGS = -Wl,-O1 -Wl,--hash-style=gnu -Wl,--as-needed
 LIBOBJS = 
 LIBS = 
-LIBTOOL = $(SHELL) $(top_builddir)/libtool
+LIBTOOL = $(top_builddir)/arm-poky-linux-gnueabi-libtool
 LIPO = 
 LN_S = ln -s
 LTLIBOBJS = 

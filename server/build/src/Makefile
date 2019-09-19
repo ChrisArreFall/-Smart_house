@@ -106,7 +106,9 @@ am__installdirs = "$(DESTDIR)$(bindir)"
 PROGRAMS = $(bin_PROGRAMS)
 am_server_OBJECTS = server.$(OBJEXT)
 server_OBJECTS = $(am_server_OBJECTS)
-server_DEPENDENCIES = $(top_builddir)/lib/libgpiorasp2.la
+am__DEPENDENCIES_1 =
+server_DEPENDENCIES = $(top_builddir)/lib/libgpiorasp2.la \
+	$(am__DEPENDENCIES_1)
 AM_V_lt = $(am__v_lt_$(V))
 am__v_lt_ = $(am__v_lt_$(AM_DEFAULT_VERBOSITY))
 am__v_lt_0 = --silent
@@ -209,7 +211,7 @@ LD = arm-poky-linux-gnueabi-ld  --sysroot=/opt/poky/2.5.1/sysroots/cortexa7hf-ne
 LDFLAGS = -Wl,-O1 -Wl,--hash-style=gnu -Wl,--as-needed
 LIBOBJS = 
 LIBS = 
-LIBTOOL = $(SHELL) $(top_builddir)/libtool
+LIBTOOL = $(top_builddir)/arm-poky-linux-gnueabi-libtool
 LIPO = 
 LN_S = ln -s
 LTLIBOBJS = 
@@ -291,7 +293,10 @@ top_builddir = ..
 top_srcdir = ../..
 AM_CPPFLAGS = -I$(top_srcdir)/include
 server_SOURCES = server.c
-server_LDADD = $(top_builddir)/lib/libgpiorasp2.la
+threads_LIB = -lpthread
+threads_CFLAGS = -pthread
+server_LDADD = $(top_builddir)/lib/libgpiorasp2.la $(threads_LIB)
+AM_CFLAGS = $(threads_CFLAGS)
 all: all-am
 
 .SUFFIXES:

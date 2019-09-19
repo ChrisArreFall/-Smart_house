@@ -578,7 +578,7 @@ lt_cv_sys_global_symbol_to_c_name_address='sed -n -e '\''s/^: \(.*\) .*$/  {"\1"
 lt_cv_sys_global_symbol_to_c_name_address_lib_prefix='sed -n -e '\''s/^: \(.*\) .*$/  {"\1", (void *) 0},/p'\'' -e '\''s/^[ABCDGIRSTW][ABCDGIRSTW]* .* \(lib.*\)$/  {"\1", (void *) \&\1},/p'\'' -e '\''s/^[ABCDGIRSTW][ABCDGIRSTW]* .* \(.*\)$/  {"lib\1", (void *) \&\1},/p'\'''
 lt_cv_nm_interface='BSD nm'
 nm_file_list_spec='@'
-lt_sysroot=''
+lt_sysroot='/opt/poky/2.5.1/sysroots/cortexa7hf-neon-vfpv4-poky-linux-gnueabi'
 lt_cv_truncate_bin='/bin/dd bs=4096 count=1'
 objdir='.libs'
 MAGIC_CMD='file'
@@ -622,7 +622,7 @@ hardcode_minus_L='no'
 hardcode_shlibpath_var='unsupported'
 hardcode_automatic='no'
 inherit_rpath='no'
-link_all_deplibs='no'
+link_all_deplibs='unknown'
 always_export_symbols='no'
 export_symbols_cmds='$NM $libobjs $convenience | $global_symbol_pipe | $SED '\''s/.* //'\'' | sort | uniq > $export_symbols'
 exclude_expsyms='_GLOBAL_OFFSET_TABLE_|_GLOBAL__F[ID]_.*'
@@ -704,7 +704,7 @@ fi
     PACKAGE='gpiorasp2'
     VERSION='1.0'
     RM='rm -f'
-    ofile='libtool'
+    ofile='arm-poky-linux-gnueabi-libtool'
 
 
 
@@ -818,7 +818,7 @@ S["build_os"]="linux-gnu"
 S["build_vendor"]="pc"
 S["build_cpu"]="x86_64"
 S["build"]="x86_64-pc-linux-gnu"
-S["LIBTOOL"]="$(SHELL) $(top_builddir)/libtool"
+S["LIBTOOL"]="$(top_builddir)/arm-poky-linux-gnueabi-libtool"
 S["ac_ct_AR"]=""
 S["AR"]="arm-poky-linux-gnueabi-ar"
 S["am__fastdepCC_FALSE"]="#"
@@ -1381,6 +1381,7 @@ $as_echo X"$file" |
     cat <<_LT_EOF >> "$cfgfile"
 #! $SHELL
 # Generated automatically by $as_me ($PACKAGE) $VERSION
+# Libtool was configured on host `(hostname || uname -n) 2>/dev/null | sed 1q`:
 # NOTE: Changes made to this file will be lost: look at ltmain.sh.
 
 # Provide generalized library-building support services.

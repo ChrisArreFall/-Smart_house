@@ -111,6 +111,160 @@ PATH: /opt/poky/2.5.1/sysroots/x86_64-pokysdk-linux/sbin
 PATH: /opt/poky/2.5.1/sysroots/x86_64-pokysdk-linux/usr/bin/../x86_64-pokysdk-linux/bin
 PATH: /opt/poky/2.5.1/sysroots/x86_64-pokysdk-linux/usr/bin/arm-poky-linux-gnueabi
 PATH: /opt/poky/2.5.1/sysroots/x86_64-pokysdk-linux/usr/bin/arm-poky-linux-musl
+PATH: /opt/poky/2.5.1/sysroots/x86_64-pokysdk-linux/usr/bin
+PATH: /opt/poky/2.5.1/sysroots/x86_64-pokysdk-linux/usr/sbin
+PATH: /opt/poky/2.5.1/sysroots/x86_64-pokysdk-linux/bin
+PATH: /opt/poky/2.5.1/sysroots/x86_64-pokysdk-linux/sbin
+PATH: /opt/poky/2.5.1/sysroots/x86_64-pokysdk-linux/usr/bin/../x86_64-pokysdk-linux/bin
+PATH: /opt/poky/2.5.1/sysroots/x86_64-pokysdk-linux/usr/bin/arm-poky-linux-gnueabi
+PATH: /opt/poky/2.5.1/sysroots/x86_64-pokysdk-linux/usr/bin/arm-poky-linux-musl
+PATH: /opt/poky/2.5.1/sysroots/x86_64-pokysdk-linux/usr/bin
+PATH: /opt/poky/2.5.1/sysroots/x86_64-pokysdk-linux/usr/sbin
+PATH: /opt/poky/2.5.1/sysroots/x86_64-pokysdk-linux/bin
+PATH: /opt/poky/2.5.1/sysroots/x86_64-pokysdk-linux/sbin
+PATH: /opt/poky/2.5.1/sysroots/x86_64-pokysdk-linux/usr/bin/../x86_64-pokysdk-linux/bin
+PATH: /opt/poky/2.5.1/sysroots/x86_64-pokysdk-linux/usr/bin/arm-poky-linux-gnueabi
+PATH: /opt/poky/2.5.1/sysroots/x86_64-pokysdk-linux/usr/bin/arm-poky-linux-musl
+PATH: /opt/poky/2.5.1/sysroots/x86_64-pokysdk-linux/usr/bin
+PATH: /opt/poky/2.5.1/sysroots/x86_64-pokysdk-linux/usr/sbin
+PATH: /opt/poky/2.5.1/sysroots/x86_64-pokysdk-linux/bin
+PATH: /opt/poky/2.5.1/sysroots/x86_64-pokysdk-linux/sbin
+PATH: /opt/poky/2.5.1/sysroots/x86_64-pokysdk-linux/usr/bin/../x86_64-pokysdk-linux/bin
+PATH: /opt/poky/2.5.1/sysroots/x86_64-pokysdk-linux/usr/bin/arm-poky-linux-gnueabi
+PATH: /opt/poky/2.5.1/sysroots/x86_64-pokysdk-linux/usr/bin/arm-poky-linux-musl
+PATH: /opt/poky/2.5.1/sysroots/x86_64-pokysdk-linux/usr/bin
+PATH: /opt/poky/2.5.1/sysroots/x86_64-pokysdk-linux/usr/sbin
+PATH: /opt/poky/2.5.1/sysroots/x86_64-pokysdk-linux/bin
+PATH: /opt/poky/2.5.1/sysroots/x86_64-pokysdk-linux/sbin
+PATH: /opt/poky/2.5.1/sysroots/x86_64-pokysdk-linux/usr/bin/../x86_64-pokysdk-linux/bin
+PATH: /opt/poky/2.5.1/sysroots/x86_64-pokysdk-linux/usr/bin/arm-poky-linux-gnueabi
+PATH: /opt/poky/2.5.1/sysroots/x86_64-pokysdk-linux/usr/bin/arm-poky-linux-musl
+PATH: /opt/poky/2.5.1/sysroots/x86_64-pokysdk-linux/usr/bin
+PATH: /opt/poky/2.5.1/sysroots/x86_64-pokysdk-linux/usr/sbin
+PATH: /opt/poky/2.5.1/sysroots/x86_64-pokysdk-linux/bin
+PATH: /opt/poky/2.5.1/sysroots/x86_64-pokysdk-linux/sbin
+PATH: /opt/poky/2.5.1/sysroots/x86_64-pokysdk-linux/usr/bin/../x86_64-pokysdk-linux/bin
+PATH: /opt/poky/2.5.1/sysroots/x86_64-pokysdk-linux/usr/bin/arm-poky-linux-gnueabi
+PATH: /opt/poky/2.5.1/sysroots/x86_64-pokysdk-linux/usr/bin/arm-poky-linux-musl
+PATH: /opt/poky/2.5.1/sysroots/x86_64-pokysdk-linux/usr/bin
+PATH: /opt/poky/2.5.1/sysroots/x86_64-pokysdk-linux/usr/sbin
+PATH: /opt/poky/2.5.1/sysroots/x86_64-pokysdk-linux/bin
+PATH: /opt/poky/2.5.1/sysroots/x86_64-pokysdk-linux/sbin
+PATH: /opt/poky/2.5.1/sysroots/x86_64-pokysdk-linux/usr/bin/../x86_64-pokysdk-linux/bin
+PATH: /opt/poky/2.5.1/sysroots/x86_64-pokysdk-linux/usr/bin/arm-poky-linux-gnueabi
+PATH: /opt/poky/2.5.1/sysroots/x86_64-pokysdk-linux/usr/bin/arm-poky-linux-musl
+PATH: /opt/poky/2.5.1/sysroots/x86_64-pokysdk-linux/usr/bin
+PATH: /opt/poky/2.5.1/sysroots/x86_64-pokysdk-linux/usr/sbin
+PATH: /opt/poky/2.5.1/sysroots/x86_64-pokysdk-linux/bin
+PATH: /opt/poky/2.5.1/sysroots/x86_64-pokysdk-linux/sbin
+PATH: /opt/poky/2.5.1/sysroots/x86_64-pokysdk-linux/usr/bin/../x86_64-pokysdk-linux/bin
+PATH: /opt/poky/2.5.1/sysroots/x86_64-pokysdk-linux/usr/bin/arm-poky-linux-gnueabi
+PATH: /opt/poky/2.5.1/sysroots/x86_64-pokysdk-linux/usr/bin/arm-poky-linux-musl
+PATH: /opt/poky/2.5.1/sysroots/x86_64-pokysdk-linux/usr/bin
+PATH: /opt/poky/2.5.1/sysroots/x86_64-pokysdk-linux/usr/sbin
+PATH: /opt/poky/2.5.1/sysroots/x86_64-pokysdk-linux/bin
+PATH: /opt/poky/2.5.1/sysroots/x86_64-pokysdk-linux/sbin
+PATH: /opt/poky/2.5.1/sysroots/x86_64-pokysdk-linux/usr/bin/../x86_64-pokysdk-linux/bin
+PATH: /opt/poky/2.5.1/sysroots/x86_64-pokysdk-linux/usr/bin/arm-poky-linux-gnueabi
+PATH: /opt/poky/2.5.1/sysroots/x86_64-pokysdk-linux/usr/bin/arm-poky-linux-musl
+PATH: /opt/poky/2.5.1/sysroots/x86_64-pokysdk-linux/usr/bin
+PATH: /opt/poky/2.5.1/sysroots/x86_64-pokysdk-linux/usr/sbin
+PATH: /opt/poky/2.5.1/sysroots/x86_64-pokysdk-linux/bin
+PATH: /opt/poky/2.5.1/sysroots/x86_64-pokysdk-linux/sbin
+PATH: /opt/poky/2.5.1/sysroots/x86_64-pokysdk-linux/usr/bin/../x86_64-pokysdk-linux/bin
+PATH: /opt/poky/2.5.1/sysroots/x86_64-pokysdk-linux/usr/bin/arm-poky-linux-gnueabi
+PATH: /opt/poky/2.5.1/sysroots/x86_64-pokysdk-linux/usr/bin/arm-poky-linux-musl
+PATH: /opt/poky/2.5.1/sysroots/x86_64-pokysdk-linux/usr/bin
+PATH: /opt/poky/2.5.1/sysroots/x86_64-pokysdk-linux/usr/sbin
+PATH: /opt/poky/2.5.1/sysroots/x86_64-pokysdk-linux/bin
+PATH: /opt/poky/2.5.1/sysroots/x86_64-pokysdk-linux/sbin
+PATH: /opt/poky/2.5.1/sysroots/x86_64-pokysdk-linux/usr/bin/../x86_64-pokysdk-linux/bin
+PATH: /opt/poky/2.5.1/sysroots/x86_64-pokysdk-linux/usr/bin/arm-poky-linux-gnueabi
+PATH: /opt/poky/2.5.1/sysroots/x86_64-pokysdk-linux/usr/bin/arm-poky-linux-musl
+PATH: /opt/poky/2.5.1/sysroots/x86_64-pokysdk-linux/usr/bin
+PATH: /opt/poky/2.5.1/sysroots/x86_64-pokysdk-linux/usr/sbin
+PATH: /opt/poky/2.5.1/sysroots/x86_64-pokysdk-linux/bin
+PATH: /opt/poky/2.5.1/sysroots/x86_64-pokysdk-linux/sbin
+PATH: /opt/poky/2.5.1/sysroots/x86_64-pokysdk-linux/usr/bin/../x86_64-pokysdk-linux/bin
+PATH: /opt/poky/2.5.1/sysroots/x86_64-pokysdk-linux/usr/bin/arm-poky-linux-gnueabi
+PATH: /opt/poky/2.5.1/sysroots/x86_64-pokysdk-linux/usr/bin/arm-poky-linux-musl
+PATH: /opt/poky/2.5.1/sysroots/x86_64-pokysdk-linux/usr/bin
+PATH: /opt/poky/2.5.1/sysroots/x86_64-pokysdk-linux/usr/sbin
+PATH: /opt/poky/2.5.1/sysroots/x86_64-pokysdk-linux/bin
+PATH: /opt/poky/2.5.1/sysroots/x86_64-pokysdk-linux/sbin
+PATH: /opt/poky/2.5.1/sysroots/x86_64-pokysdk-linux/usr/bin/../x86_64-pokysdk-linux/bin
+PATH: /opt/poky/2.5.1/sysroots/x86_64-pokysdk-linux/usr/bin/arm-poky-linux-gnueabi
+PATH: /opt/poky/2.5.1/sysroots/x86_64-pokysdk-linux/usr/bin/arm-poky-linux-musl
+PATH: /opt/poky/2.5.1/sysroots/x86_64-pokysdk-linux/usr/bin
+PATH: /opt/poky/2.5.1/sysroots/x86_64-pokysdk-linux/usr/sbin
+PATH: /opt/poky/2.5.1/sysroots/x86_64-pokysdk-linux/bin
+PATH: /opt/poky/2.5.1/sysroots/x86_64-pokysdk-linux/sbin
+PATH: /opt/poky/2.5.1/sysroots/x86_64-pokysdk-linux/usr/bin/../x86_64-pokysdk-linux/bin
+PATH: /opt/poky/2.5.1/sysroots/x86_64-pokysdk-linux/usr/bin/arm-poky-linux-gnueabi
+PATH: /opt/poky/2.5.1/sysroots/x86_64-pokysdk-linux/usr/bin/arm-poky-linux-musl
+PATH: /opt/poky/2.5.1/sysroots/x86_64-pokysdk-linux/usr/bin
+PATH: /opt/poky/2.5.1/sysroots/x86_64-pokysdk-linux/usr/sbin
+PATH: /opt/poky/2.5.1/sysroots/x86_64-pokysdk-linux/bin
+PATH: /opt/poky/2.5.1/sysroots/x86_64-pokysdk-linux/sbin
+PATH: /opt/poky/2.5.1/sysroots/x86_64-pokysdk-linux/usr/bin/../x86_64-pokysdk-linux/bin
+PATH: /opt/poky/2.5.1/sysroots/x86_64-pokysdk-linux/usr/bin/arm-poky-linux-gnueabi
+PATH: /opt/poky/2.5.1/sysroots/x86_64-pokysdk-linux/usr/bin/arm-poky-linux-musl
+PATH: /opt/poky/2.5.1/sysroots/x86_64-pokysdk-linux/usr/bin
+PATH: /opt/poky/2.5.1/sysroots/x86_64-pokysdk-linux/usr/sbin
+PATH: /opt/poky/2.5.1/sysroots/x86_64-pokysdk-linux/bin
+PATH: /opt/poky/2.5.1/sysroots/x86_64-pokysdk-linux/sbin
+PATH: /opt/poky/2.5.1/sysroots/x86_64-pokysdk-linux/usr/bin/../x86_64-pokysdk-linux/bin
+PATH: /opt/poky/2.5.1/sysroots/x86_64-pokysdk-linux/usr/bin/arm-poky-linux-gnueabi
+PATH: /opt/poky/2.5.1/sysroots/x86_64-pokysdk-linux/usr/bin/arm-poky-linux-musl
+PATH: /opt/poky/2.5.1/sysroots/x86_64-pokysdk-linux/usr/bin
+PATH: /opt/poky/2.5.1/sysroots/x86_64-pokysdk-linux/usr/sbin
+PATH: /opt/poky/2.5.1/sysroots/x86_64-pokysdk-linux/bin
+PATH: /opt/poky/2.5.1/sysroots/x86_64-pokysdk-linux/sbin
+PATH: /opt/poky/2.5.1/sysroots/x86_64-pokysdk-linux/usr/bin/../x86_64-pokysdk-linux/bin
+PATH: /opt/poky/2.5.1/sysroots/x86_64-pokysdk-linux/usr/bin/arm-poky-linux-gnueabi
+PATH: /opt/poky/2.5.1/sysroots/x86_64-pokysdk-linux/usr/bin/arm-poky-linux-musl
+PATH: /opt/poky/2.5.1/sysroots/x86_64-pokysdk-linux/usr/bin
+PATH: /opt/poky/2.5.1/sysroots/x86_64-pokysdk-linux/usr/sbin
+PATH: /opt/poky/2.5.1/sysroots/x86_64-pokysdk-linux/bin
+PATH: /opt/poky/2.5.1/sysroots/x86_64-pokysdk-linux/sbin
+PATH: /opt/poky/2.5.1/sysroots/x86_64-pokysdk-linux/usr/bin/../x86_64-pokysdk-linux/bin
+PATH: /opt/poky/2.5.1/sysroots/x86_64-pokysdk-linux/usr/bin/arm-poky-linux-gnueabi
+PATH: /opt/poky/2.5.1/sysroots/x86_64-pokysdk-linux/usr/bin/arm-poky-linux-musl
+PATH: /opt/poky/2.5.1/sysroots/x86_64-pokysdk-linux/usr/bin
+PATH: /opt/poky/2.5.1/sysroots/x86_64-pokysdk-linux/usr/sbin
+PATH: /opt/poky/2.5.1/sysroots/x86_64-pokysdk-linux/bin
+PATH: /opt/poky/2.5.1/sysroots/x86_64-pokysdk-linux/sbin
+PATH: /opt/poky/2.5.1/sysroots/x86_64-pokysdk-linux/usr/bin/../x86_64-pokysdk-linux/bin
+PATH: /opt/poky/2.5.1/sysroots/x86_64-pokysdk-linux/usr/bin/arm-poky-linux-gnueabi
+PATH: /opt/poky/2.5.1/sysroots/x86_64-pokysdk-linux/usr/bin/arm-poky-linux-musl
+PATH: /opt/poky/2.5.1/sysroots/x86_64-pokysdk-linux/usr/bin
+PATH: /opt/poky/2.5.1/sysroots/x86_64-pokysdk-linux/usr/sbin
+PATH: /opt/poky/2.5.1/sysroots/x86_64-pokysdk-linux/bin
+PATH: /opt/poky/2.5.1/sysroots/x86_64-pokysdk-linux/sbin
+PATH: /opt/poky/2.5.1/sysroots/x86_64-pokysdk-linux/usr/bin/../x86_64-pokysdk-linux/bin
+PATH: /opt/poky/2.5.1/sysroots/x86_64-pokysdk-linux/usr/bin/arm-poky-linux-gnueabi
+PATH: /opt/poky/2.5.1/sysroots/x86_64-pokysdk-linux/usr/bin/arm-poky-linux-musl
+PATH: /opt/poky/2.5.1/sysroots/x86_64-pokysdk-linux/usr/bin
+PATH: /opt/poky/2.5.1/sysroots/x86_64-pokysdk-linux/usr/sbin
+PATH: /opt/poky/2.5.1/sysroots/x86_64-pokysdk-linux/bin
+PATH: /opt/poky/2.5.1/sysroots/x86_64-pokysdk-linux/sbin
+PATH: /opt/poky/2.5.1/sysroots/x86_64-pokysdk-linux/usr/bin/../x86_64-pokysdk-linux/bin
+PATH: /opt/poky/2.5.1/sysroots/x86_64-pokysdk-linux/usr/bin/arm-poky-linux-gnueabi
+PATH: /opt/poky/2.5.1/sysroots/x86_64-pokysdk-linux/usr/bin/arm-poky-linux-musl
+PATH: /opt/poky/2.5.1/sysroots/x86_64-pokysdk-linux/usr/bin
+PATH: /opt/poky/2.5.1/sysroots/x86_64-pokysdk-linux/usr/sbin
+PATH: /opt/poky/2.5.1/sysroots/x86_64-pokysdk-linux/bin
+PATH: /opt/poky/2.5.1/sysroots/x86_64-pokysdk-linux/sbin
+PATH: /opt/poky/2.5.1/sysroots/x86_64-pokysdk-linux/usr/bin/../x86_64-pokysdk-linux/bin
+PATH: /opt/poky/2.5.1/sysroots/x86_64-pokysdk-linux/usr/bin/arm-poky-linux-gnueabi
+PATH: /opt/poky/2.5.1/sysroots/x86_64-pokysdk-linux/usr/bin/arm-poky-linux-musl
+PATH: /opt/poky/2.5.1/sysroots/x86_64-pokysdk-linux/usr/bin
+PATH: /opt/poky/2.5.1/sysroots/x86_64-pokysdk-linux/usr/sbin
+PATH: /opt/poky/2.5.1/sysroots/x86_64-pokysdk-linux/bin
+PATH: /opt/poky/2.5.1/sysroots/x86_64-pokysdk-linux/sbin
+PATH: /opt/poky/2.5.1/sysroots/x86_64-pokysdk-linux/usr/bin/../x86_64-pokysdk-linux/bin
+PATH: /opt/poky/2.5.1/sysroots/x86_64-pokysdk-linux/usr/bin/arm-poky-linux-gnueabi
+PATH: /opt/poky/2.5.1/sysroots/x86_64-pokysdk-linux/usr/bin/arm-poky-linux-musl
 PATH: /home/jerodso/.nvm/versions/node/v11.0.0/bin
 PATH: /home/jerodso/bin
 PATH: /home/jerodso/.local/bin
@@ -138,7 +292,7 @@ PATH: /home/jerodso/Android/Sdk/platform-tools
 ## Core tests. ##
 ## ----------- ##
 
-configure:1986: loading site script /opt/poky/2.5.1/site-config-cortexa7hf-neon-vfpv4-poky-linux-gnueabi
+configure:1987: loading site script /opt/poky/2.5.1/site-config-cortexa7hf-neon-vfpv4-poky-linux-gnueabi
 | ac_cv_c_littleendian=${ac_cv_c_littleendian=yes}
 | ac_cv_c_bigendian=${ac_cv_c_bigendian=no}
 | 
@@ -678,32 +832,32 @@ configure:1986: loading site script /opt/poky/2.5.1/site-config-cortexa7hf-neon-
 | ac_cv_buggy_getaddrinfo=no
 | 
 | ac_cv_path_SED=${ac_cv_path_SED=sed}
-configure:2128: checking for a BSD-compatible install
-configure:2196: result: /usr/bin/install -c
-configure:2207: checking whether build environment is sane
-configure:2222: result: yes
-configure:2272: checking for arm-poky-linux-gnueabi-strip
-configure:2299: result: arm-poky-linux-gnueabi-strip
-configure:2364: checking for a thread-safe mkdir -p
-configure:2403: result: /bin/mkdir -p
-configure:2410: checking for gawk
-configure:2426: found /usr/bin/gawk
-configure:2437: result: gawk
-configure:2448: checking whether make sets $(MAKE)
-configure:2470: result: yes
-configure:2499: checking whether make supports nested variables
-configure:2516: result: yes
-configure:2650: checking for arm-poky-linux-gnueabi-gcc
-configure:2677: result: arm-poky-linux-gnueabi-gcc  -march=armv7ve -marm -mfpu=neon-vfpv4 -mfloat-abi=hard -mcpu=cortex-a7 --sysroot=/opt/poky/2.5.1/sysroots/cortexa7hf-neon-vfpv4-poky-linux-gnueabi
-configure:2946: checking for C compiler version
-configure:2955: arm-poky-linux-gnueabi-gcc  -march=armv7ve -marm -mfpu=neon-vfpv4 -mfloat-abi=hard -mcpu=cortex-a7 --sysroot=/opt/poky/2.5.1/sysroots/cortexa7hf-neon-vfpv4-poky-linux-gnueabi --version >&5
+configure:2129: checking for a BSD-compatible install
+configure:2197: result: /usr/bin/install -c
+configure:2208: checking whether build environment is sane
+configure:2223: result: yes
+configure:2273: checking for arm-poky-linux-gnueabi-strip
+configure:2300: result: arm-poky-linux-gnueabi-strip
+configure:2365: checking for a thread-safe mkdir -p
+configure:2404: result: /bin/mkdir -p
+configure:2411: checking for gawk
+configure:2427: found /usr/bin/gawk
+configure:2438: result: gawk
+configure:2449: checking whether make sets $(MAKE)
+configure:2471: result: yes
+configure:2500: checking whether make supports nested variables
+configure:2517: result: yes
+configure:2651: checking for arm-poky-linux-gnueabi-gcc
+configure:2678: result: arm-poky-linux-gnueabi-gcc  -march=armv7ve -marm -mfpu=neon-vfpv4 -mfloat-abi=hard -mcpu=cortex-a7 --sysroot=/opt/poky/2.5.1/sysroots/cortexa7hf-neon-vfpv4-poky-linux-gnueabi
+configure:2947: checking for C compiler version
+configure:2956: arm-poky-linux-gnueabi-gcc  -march=armv7ve -marm -mfpu=neon-vfpv4 -mfloat-abi=hard -mcpu=cortex-a7 --sysroot=/opt/poky/2.5.1/sysroots/cortexa7hf-neon-vfpv4-poky-linux-gnueabi --version >&5
 arm-poky-linux-gnueabi-gcc (GCC) 7.3.0
 Copyright (C) 2017 Free Software Foundation, Inc.
 This is free software; see the source for copying conditions.  There is NO
 warranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
 
-configure:2966: $? = 0
-configure:2955: arm-poky-linux-gnueabi-gcc  -march=armv7ve -marm -mfpu=neon-vfpv4 -mfloat-abi=hard -mcpu=cortex-a7 --sysroot=/opt/poky/2.5.1/sysroots/cortexa7hf-neon-vfpv4-poky-linux-gnueabi -v >&5
+configure:2967: $? = 0
+configure:2956: arm-poky-linux-gnueabi-gcc  -march=armv7ve -marm -mfpu=neon-vfpv4 -mfloat-abi=hard -mcpu=cortex-a7 --sysroot=/opt/poky/2.5.1/sysroots/cortexa7hf-neon-vfpv4-poky-linux-gnueabi -v >&5
 Using built-in specs.
 COLLECT_GCC=arm-poky-linux-gnueabi-gcc
 COLLECT_LTO_WRAPPER=/opt/poky/2.5.1/sysroots/x86_64-pokysdk-linux/usr/libexec/arm-poky-linux-gnueabi/gcc/arm-poky-linux-gnueabi/7.3.0/lto-wrapper
@@ -711,165 +865,165 @@ Target: arm-poky-linux-gnueabi
 Configured with: ../../../../../../work-shared/gcc-7.3.0-r0/gcc-7.3.0/configure --build=x86_64-linux --host=x86_64-pokysdk-linux --target=arm-poky-linux-gnueabi --prefix=/opt/poky/2.5.1/sysroots/x86_64-pokysdk-linux/usr --exec_prefix=/opt/poky/2.5.1/sysroots/x86_64-pokysdk-linux/usr --bindir=/opt/poky/2.5.1/sysroots/x86_64-pokysdk-linux/usr/bin/arm-poky-linux-gnueabi --sbindir=/opt/poky/2.5.1/sysroots/x86_64-pokysdk-linux/usr/bin/arm-poky-linux-gnueabi --libexecdir=/opt/poky/2.5.1/sysroots/x86_64-pokysdk-linux/usr/libexec/arm-poky-linux-gnueabi --datadir=/opt/poky/2.5.1/sysroots/x86_64-pokysdk-linux/usr/share --sysconfdir=/opt/poky/2.5.1/sysroots/x86_64-pokysdk-linux/etc --sharedstatedir=/opt/poky/2.5.1/sysroots/x86_64-pokysdk-linux/com --localstatedir=/opt/poky/2.5.1/sysroots/x86_64-pokysdk-linux/var --libdir=/opt/poky/2.5.1/sysroots/x86_64-pokysdk-linux/usr/lib/arm-poky-linux-gnueabi --includedir=/opt/poky/2.5.1/sysroots/x86_64-pokysdk-linux/usr/include --oldincludedir=/opt/poky/2.5.1/sysroots/x86_64-pokysdk-linux/usr/include --infodir=/opt/poky/2.5.1/sysroots/x86_64-pokysdk-linux/usr/share/info --mandir=/opt/poky/2.5.1/sysroots/x86_64-pokysdk-linux/usr/share/man --disable-silent-rules --disable-dependency-tracking --with-libtool-sysroot=/home/jerodso/poky-sumo-19.0.1/rpi2/tmp/work/x86_64-nativesdk-pokysdk-linux/gcc-cross-canadian-arm/7.3.0-r0/recipe-sysroot --with-gnu-ld --enable-shared --enable-languages=c,c++ --enable-threads=posix --enable-multilib --enable-c99 --enable-long-long --enable-symvers=gnu --enable-libstdcxx-pch --program-prefix=arm-poky-linux-gnueabi- --without-local-prefix --enable-lto --enable-libssp --enable-libitm --disable-bootstrap --disable-libmudflap --with-system-zlib --with-linker-hash-style=gnu --enable-linker-build-id --with-ppl=no --with-cloog=no --enable-checking=release --enable-cheaders=c_global --without-isl --with-gxx-include-dir=/not/exist/usr/include/c++/7.3.0 --with-build-time-tools=/home/jerodso/poky-sumo-19.0.1/rpi2/tmp/work/x86_64-nativesdk-pokysdk-linux/gcc-cross-canadian-arm/7.3.0-r0/recipe-sysroot-native/usr/arm-poky-linux-gnueabi/bin --with-sysroot=/not/exist --with-build-sysroot=/home/jerodso/poky-sumo-19.0.1/rpi2/tmp/work/x86_64-nativesdk-pokysdk-linux/gcc-cross-canadian-arm/7.3.0-r0/recipe-sysroot --without-long-double-128 --enable-poison-system-directories --with-mpfr=/home/jerodso/poky-sumo-19.0.1/rpi2/tmp/work/x86_64-nativesdk-pokysdk-linux/gcc-cross-canadian-arm/7.3.0-r0/recipe-sysroot --with-mpc=/home/jerodso/poky-sumo-19.0.1/rpi2/tmp/work/x86_64-nativesdk-pokysdk-linux/gcc-cross-canadian-arm/7.3.0-r0/recipe-sysroot --disable-static --enable-nls --enable-initfini-array
 Thread model: posix
 gcc version 7.3.0 (GCC) 
-configure:2966: $? = 0
-configure:2955: arm-poky-linux-gnueabi-gcc  -march=armv7ve -marm -mfpu=neon-vfpv4 -mfloat-abi=hard -mcpu=cortex-a7 --sysroot=/opt/poky/2.5.1/sysroots/cortexa7hf-neon-vfpv4-poky-linux-gnueabi -V >&5
+configure:2967: $? = 0
+configure:2956: arm-poky-linux-gnueabi-gcc  -march=armv7ve -marm -mfpu=neon-vfpv4 -mfloat-abi=hard -mcpu=cortex-a7 --sysroot=/opt/poky/2.5.1/sysroots/cortexa7hf-neon-vfpv4-poky-linux-gnueabi -V >&5
 arm-poky-linux-gnueabi-gcc: error: unrecognized command line option '-V'
 arm-poky-linux-gnueabi-gcc: fatal error: no input files
 compilation terminated.
-configure:2966: $? = 1
-configure:2955: arm-poky-linux-gnueabi-gcc  -march=armv7ve -marm -mfpu=neon-vfpv4 -mfloat-abi=hard -mcpu=cortex-a7 --sysroot=/opt/poky/2.5.1/sysroots/cortexa7hf-neon-vfpv4-poky-linux-gnueabi -qversion >&5
+configure:2967: $? = 1
+configure:2956: arm-poky-linux-gnueabi-gcc  -march=armv7ve -marm -mfpu=neon-vfpv4 -mfloat-abi=hard -mcpu=cortex-a7 --sysroot=/opt/poky/2.5.1/sysroots/cortexa7hf-neon-vfpv4-poky-linux-gnueabi -qversion >&5
 arm-poky-linux-gnueabi-gcc: error: unrecognized command line option '-qversion'; did you mean '--version'?
 arm-poky-linux-gnueabi-gcc: fatal error: no input files
 compilation terminated.
-configure:2966: $? = 1
-configure:2986: checking whether the C compiler works
-configure:3008: arm-poky-linux-gnueabi-gcc  -march=armv7ve -marm -mfpu=neon-vfpv4 -mfloat-abi=hard -mcpu=cortex-a7 --sysroot=/opt/poky/2.5.1/sysroots/cortexa7hf-neon-vfpv4-poky-linux-gnueabi  -O2 -pipe -g -feliminate-unused-debug-types   -Wl,-O1 -Wl,--hash-style=gnu -Wl,--as-needed conftest.c  >&5
-configure:3012: $? = 0
-configure:3060: result: yes
-configure:3063: checking for C compiler default output file name
-configure:3065: result: a.out
-configure:3071: checking for suffix of executables
-configure:3078: arm-poky-linux-gnueabi-gcc  -march=armv7ve -marm -mfpu=neon-vfpv4 -mfloat-abi=hard -mcpu=cortex-a7 --sysroot=/opt/poky/2.5.1/sysroots/cortexa7hf-neon-vfpv4-poky-linux-gnueabi -o conftest  -O2 -pipe -g -feliminate-unused-debug-types   -Wl,-O1 -Wl,--hash-style=gnu -Wl,--as-needed conftest.c  >&5
-configure:3082: $? = 0
-configure:3104: result: 
-configure:3126: checking whether we are cross compiling
-configure:3134: arm-poky-linux-gnueabi-gcc  -march=armv7ve -marm -mfpu=neon-vfpv4 -mfloat-abi=hard -mcpu=cortex-a7 --sysroot=/opt/poky/2.5.1/sysroots/cortexa7hf-neon-vfpv4-poky-linux-gnueabi -o conftest  -O2 -pipe -g -feliminate-unused-debug-types   -Wl,-O1 -Wl,--hash-style=gnu -Wl,--as-needed conftest.c  >&5
-configure:3138: $? = 0
-configure:3145: ./conftest
+configure:2967: $? = 1
+configure:2987: checking whether the C compiler works
+configure:3009: arm-poky-linux-gnueabi-gcc  -march=armv7ve -marm -mfpu=neon-vfpv4 -mfloat-abi=hard -mcpu=cortex-a7 --sysroot=/opt/poky/2.5.1/sysroots/cortexa7hf-neon-vfpv4-poky-linux-gnueabi  -O2 -pipe -g -feliminate-unused-debug-types   -Wl,-O1 -Wl,--hash-style=gnu -Wl,--as-needed conftest.c  >&5
+configure:3013: $? = 0
+configure:3061: result: yes
+configure:3064: checking for C compiler default output file name
+configure:3066: result: a.out
+configure:3072: checking for suffix of executables
+configure:3079: arm-poky-linux-gnueabi-gcc  -march=armv7ve -marm -mfpu=neon-vfpv4 -mfloat-abi=hard -mcpu=cortex-a7 --sysroot=/opt/poky/2.5.1/sysroots/cortexa7hf-neon-vfpv4-poky-linux-gnueabi -o conftest  -O2 -pipe -g -feliminate-unused-debug-types   -Wl,-O1 -Wl,--hash-style=gnu -Wl,--as-needed conftest.c  >&5
+configure:3083: $? = 0
+configure:3105: result: 
+configure:3127: checking whether we are cross compiling
+configure:3135: arm-poky-linux-gnueabi-gcc  -march=armv7ve -marm -mfpu=neon-vfpv4 -mfloat-abi=hard -mcpu=cortex-a7 --sysroot=/opt/poky/2.5.1/sysroots/cortexa7hf-neon-vfpv4-poky-linux-gnueabi -o conftest  -O2 -pipe -g -feliminate-unused-debug-types   -Wl,-O1 -Wl,--hash-style=gnu -Wl,--as-needed conftest.c  >&5
+configure:3139: $? = 0
+configure:3146: ./conftest
 /lib/ld-linux-armhf.so.3: No such file or directory
-configure:3149: $? = 255
-configure:3164: result: yes
-configure:3169: checking for suffix of object files
-configure:3191: arm-poky-linux-gnueabi-gcc  -march=armv7ve -marm -mfpu=neon-vfpv4 -mfloat-abi=hard -mcpu=cortex-a7 --sysroot=/opt/poky/2.5.1/sysroots/cortexa7hf-neon-vfpv4-poky-linux-gnueabi -c  -O2 -pipe -g -feliminate-unused-debug-types   conftest.c >&5
-configure:3195: $? = 0
-configure:3216: result: o
-configure:3220: checking whether we are using the GNU C compiler
-configure:3239: arm-poky-linux-gnueabi-gcc  -march=armv7ve -marm -mfpu=neon-vfpv4 -mfloat-abi=hard -mcpu=cortex-a7 --sysroot=/opt/poky/2.5.1/sysroots/cortexa7hf-neon-vfpv4-poky-linux-gnueabi -c  -O2 -pipe -g -feliminate-unused-debug-types   conftest.c >&5
-configure:3239: $? = 0
-configure:3248: result: yes
-configure:3257: checking whether arm-poky-linux-gnueabi-gcc  -march=armv7ve -marm -mfpu=neon-vfpv4 -mfloat-abi=hard -mcpu=cortex-a7 --sysroot=/opt/poky/2.5.1/sysroots/cortexa7hf-neon-vfpv4-poky-linux-gnueabi accepts -g
-configure:3277: arm-poky-linux-gnueabi-gcc  -march=armv7ve -marm -mfpu=neon-vfpv4 -mfloat-abi=hard -mcpu=cortex-a7 --sysroot=/opt/poky/2.5.1/sysroots/cortexa7hf-neon-vfpv4-poky-linux-gnueabi -c -g  conftest.c >&5
-configure:3277: $? = 0
-configure:3318: result: yes
-configure:3335: checking for arm-poky-linux-gnueabi-gcc  -march=armv7ve -marm -mfpu=neon-vfpv4 -mfloat-abi=hard -mcpu=cortex-a7 --sysroot=/opt/poky/2.5.1/sysroots/cortexa7hf-neon-vfpv4-poky-linux-gnueabi option to accept ISO C89
-configure:3398: arm-poky-linux-gnueabi-gcc  -march=armv7ve -marm -mfpu=neon-vfpv4 -mfloat-abi=hard -mcpu=cortex-a7 --sysroot=/opt/poky/2.5.1/sysroots/cortexa7hf-neon-vfpv4-poky-linux-gnueabi  -c  -O2 -pipe -g -feliminate-unused-debug-types   conftest.c >&5
-configure:3398: $? = 0
-configure:3411: result: none needed
-configure:3436: checking whether arm-poky-linux-gnueabi-gcc  -march=armv7ve -marm -mfpu=neon-vfpv4 -mfloat-abi=hard -mcpu=cortex-a7 --sysroot=/opt/poky/2.5.1/sysroots/cortexa7hf-neon-vfpv4-poky-linux-gnueabi understands -c and -o together
-configure:3458: arm-poky-linux-gnueabi-gcc  -march=armv7ve -marm -mfpu=neon-vfpv4 -mfloat-abi=hard -mcpu=cortex-a7 --sysroot=/opt/poky/2.5.1/sysroots/cortexa7hf-neon-vfpv4-poky-linux-gnueabi -c conftest.c -o conftest2.o
-configure:3461: $? = 0
-configure:3458: arm-poky-linux-gnueabi-gcc  -march=armv7ve -marm -mfpu=neon-vfpv4 -mfloat-abi=hard -mcpu=cortex-a7 --sysroot=/opt/poky/2.5.1/sysroots/cortexa7hf-neon-vfpv4-poky-linux-gnueabi -c conftest.c -o conftest2.o
-configure:3461: $? = 0
-configure:3473: result: yes
-configure:3501: checking for style of include used by make
-configure:3529: result: GNU
-configure:3555: checking dependency style of arm-poky-linux-gnueabi-gcc  -march=armv7ve -marm -mfpu=neon-vfpv4 -mfloat-abi=hard -mcpu=cortex-a7 --sysroot=/opt/poky/2.5.1/sysroots/cortexa7hf-neon-vfpv4-poky-linux-gnueabi
-configure:3666: result: gcc3
-configure:3687: checking for arm-poky-linux-gnueabi-ar
-configure:3714: result: arm-poky-linux-gnueabi-ar
-configure:3784: checking the archiver (arm-poky-linux-gnueabi-ar) interface
-configure:3800: arm-poky-linux-gnueabi-gcc  -march=armv7ve -marm -mfpu=neon-vfpv4 -mfloat-abi=hard -mcpu=cortex-a7 --sysroot=/opt/poky/2.5.1/sysroots/cortexa7hf-neon-vfpv4-poky-linux-gnueabi -c  -O2 -pipe -g -feliminate-unused-debug-types   conftest.c >&5
-configure:3800: $? = 0
-configure:3802: arm-poky-linux-gnueabi-ar cru libconftest.a conftest.o >&5
+configure:3150: $? = 255
+configure:3165: result: yes
+configure:3170: checking for suffix of object files
+configure:3192: arm-poky-linux-gnueabi-gcc  -march=armv7ve -marm -mfpu=neon-vfpv4 -mfloat-abi=hard -mcpu=cortex-a7 --sysroot=/opt/poky/2.5.1/sysroots/cortexa7hf-neon-vfpv4-poky-linux-gnueabi -c  -O2 -pipe -g -feliminate-unused-debug-types   conftest.c >&5
+configure:3196: $? = 0
+configure:3217: result: o
+configure:3221: checking whether we are using the GNU C compiler
+configure:3240: arm-poky-linux-gnueabi-gcc  -march=armv7ve -marm -mfpu=neon-vfpv4 -mfloat-abi=hard -mcpu=cortex-a7 --sysroot=/opt/poky/2.5.1/sysroots/cortexa7hf-neon-vfpv4-poky-linux-gnueabi -c  -O2 -pipe -g -feliminate-unused-debug-types   conftest.c >&5
+configure:3240: $? = 0
+configure:3249: result: yes
+configure:3258: checking whether arm-poky-linux-gnueabi-gcc  -march=armv7ve -marm -mfpu=neon-vfpv4 -mfloat-abi=hard -mcpu=cortex-a7 --sysroot=/opt/poky/2.5.1/sysroots/cortexa7hf-neon-vfpv4-poky-linux-gnueabi accepts -g
+configure:3278: arm-poky-linux-gnueabi-gcc  -march=armv7ve -marm -mfpu=neon-vfpv4 -mfloat-abi=hard -mcpu=cortex-a7 --sysroot=/opt/poky/2.5.1/sysroots/cortexa7hf-neon-vfpv4-poky-linux-gnueabi -c -g  conftest.c >&5
+configure:3278: $? = 0
+configure:3319: result: yes
+configure:3336: checking for arm-poky-linux-gnueabi-gcc  -march=armv7ve -marm -mfpu=neon-vfpv4 -mfloat-abi=hard -mcpu=cortex-a7 --sysroot=/opt/poky/2.5.1/sysroots/cortexa7hf-neon-vfpv4-poky-linux-gnueabi option to accept ISO C89
+configure:3399: arm-poky-linux-gnueabi-gcc  -march=armv7ve -marm -mfpu=neon-vfpv4 -mfloat-abi=hard -mcpu=cortex-a7 --sysroot=/opt/poky/2.5.1/sysroots/cortexa7hf-neon-vfpv4-poky-linux-gnueabi  -c  -O2 -pipe -g -feliminate-unused-debug-types   conftest.c >&5
+configure:3399: $? = 0
+configure:3412: result: none needed
+configure:3437: checking whether arm-poky-linux-gnueabi-gcc  -march=armv7ve -marm -mfpu=neon-vfpv4 -mfloat-abi=hard -mcpu=cortex-a7 --sysroot=/opt/poky/2.5.1/sysroots/cortexa7hf-neon-vfpv4-poky-linux-gnueabi understands -c and -o together
+configure:3459: arm-poky-linux-gnueabi-gcc  -march=armv7ve -marm -mfpu=neon-vfpv4 -mfloat-abi=hard -mcpu=cortex-a7 --sysroot=/opt/poky/2.5.1/sysroots/cortexa7hf-neon-vfpv4-poky-linux-gnueabi -c conftest.c -o conftest2.o
+configure:3462: $? = 0
+configure:3459: arm-poky-linux-gnueabi-gcc  -march=armv7ve -marm -mfpu=neon-vfpv4 -mfloat-abi=hard -mcpu=cortex-a7 --sysroot=/opt/poky/2.5.1/sysroots/cortexa7hf-neon-vfpv4-poky-linux-gnueabi -c conftest.c -o conftest2.o
+configure:3462: $? = 0
+configure:3474: result: yes
+configure:3502: checking for style of include used by make
+configure:3530: result: GNU
+configure:3556: checking dependency style of arm-poky-linux-gnueabi-gcc  -march=armv7ve -marm -mfpu=neon-vfpv4 -mfloat-abi=hard -mcpu=cortex-a7 --sysroot=/opt/poky/2.5.1/sysroots/cortexa7hf-neon-vfpv4-poky-linux-gnueabi
+configure:3667: result: gcc3
+configure:3688: checking for arm-poky-linux-gnueabi-ar
+configure:3715: result: arm-poky-linux-gnueabi-ar
+configure:3785: checking the archiver (arm-poky-linux-gnueabi-ar) interface
+configure:3801: arm-poky-linux-gnueabi-gcc  -march=armv7ve -marm -mfpu=neon-vfpv4 -mfloat-abi=hard -mcpu=cortex-a7 --sysroot=/opt/poky/2.5.1/sysroots/cortexa7hf-neon-vfpv4-poky-linux-gnueabi -c  -O2 -pipe -g -feliminate-unused-debug-types   conftest.c >&5
+configure:3801: $? = 0
+configure:3803: arm-poky-linux-gnueabi-ar cru libconftest.a conftest.o >&5
 arm-poky-linux-gnueabi-ar: `u' modifier ignored since `D' is the default (see `U')
-configure:3805: $? = 0
-configure:3833: result: ar
-configure:3882: checking build system type
-configure:3896: result: x86_64-pc-linux-gnu
-configure:3916: checking host system type
-configure:3929: result: arm-poky-linux-gnueabi
-configure:3970: checking how to print strings
-configure:3997: result: printf
-configure:4018: checking for a sed that does not truncate output
-configure:4082: result: sed
-configure:4100: checking for grep that handles long lines and -e
-configure:4158: result: /bin/grep
-configure:4163: checking for egrep
-configure:4225: result: /bin/grep -E
-configure:4230: checking for fgrep
-configure:4292: result: /bin/grep -F
-configure:4327: checking for ld used by arm-poky-linux-gnueabi-gcc  -march=armv7ve -marm -mfpu=neon-vfpv4 -mfloat-abi=hard -mcpu=cortex-a7 --sysroot=/opt/poky/2.5.1/sysroots/cortexa7hf-neon-vfpv4-poky-linux-gnueabi
-configure:4394: result: arm-poky-linux-gnueabi-ld  --sysroot=/opt/poky/2.5.1/sysroots/cortexa7hf-neon-vfpv4-poky-linux-gnueabi
-configure:4401: checking if the linker (arm-poky-linux-gnueabi-ld  --sysroot=/opt/poky/2.5.1/sysroots/cortexa7hf-neon-vfpv4-poky-linux-gnueabi) is GNU ld
-configure:4416: result: yes
-configure:4428: checking for BSD- or MS-compatible name lister (nm)
-configure:4482: result: arm-poky-linux-gnueabi-nm
-configure:4612: checking the name lister (arm-poky-linux-gnueabi-nm) interface
-configure:4619: arm-poky-linux-gnueabi-gcc  -march=armv7ve -marm -mfpu=neon-vfpv4 -mfloat-abi=hard -mcpu=cortex-a7 --sysroot=/opt/poky/2.5.1/sysroots/cortexa7hf-neon-vfpv4-poky-linux-gnueabi -c  -O2 -pipe -g -feliminate-unused-debug-types   conftest.c >&5
-configure:4622: arm-poky-linux-gnueabi-nm "conftest.o"
-configure:4625: output
+configure:3806: $? = 0
+configure:3834: result: ar
+configure:3883: checking build system type
+configure:3897: result: x86_64-pc-linux-gnu
+configure:3917: checking host system type
+configure:3930: result: arm-poky-linux-gnueabi
+configure:3971: checking how to print strings
+configure:3998: result: printf
+configure:4019: checking for a sed that does not truncate output
+configure:4083: result: sed
+configure:4101: checking for grep that handles long lines and -e
+configure:4159: result: /bin/grep
+configure:4164: checking for egrep
+configure:4226: result: /bin/grep -E
+configure:4231: checking for fgrep
+configure:4293: result: /bin/grep -F
+configure:4328: checking for ld used by arm-poky-linux-gnueabi-gcc  -march=armv7ve -marm -mfpu=neon-vfpv4 -mfloat-abi=hard -mcpu=cortex-a7 --sysroot=/opt/poky/2.5.1/sysroots/cortexa7hf-neon-vfpv4-poky-linux-gnueabi
+configure:4395: result: arm-poky-linux-gnueabi-ld  --sysroot=/opt/poky/2.5.1/sysroots/cortexa7hf-neon-vfpv4-poky-linux-gnueabi
+configure:4402: checking if the linker (arm-poky-linux-gnueabi-ld  --sysroot=/opt/poky/2.5.1/sysroots/cortexa7hf-neon-vfpv4-poky-linux-gnueabi) is GNU ld
+configure:4417: result: yes
+configure:4429: checking for BSD- or MS-compatible name lister (nm)
+configure:4483: result: arm-poky-linux-gnueabi-nm
+configure:4613: checking the name lister (arm-poky-linux-gnueabi-nm) interface
+configure:4620: arm-poky-linux-gnueabi-gcc  -march=armv7ve -marm -mfpu=neon-vfpv4 -mfloat-abi=hard -mcpu=cortex-a7 --sysroot=/opt/poky/2.5.1/sysroots/cortexa7hf-neon-vfpv4-poky-linux-gnueabi -c  -O2 -pipe -g -feliminate-unused-debug-types   conftest.c >&5
+configure:4623: arm-poky-linux-gnueabi-nm "conftest.o"
+configure:4626: output
 00000000 B some_variable
-configure:4632: result: BSD nm
-configure:4635: checking whether ln -s works
-configure:4639: result: yes
-configure:4647: checking the maximum length of command line arguments
-configure:4778: result: 1572864
-configure:4826: checking how to convert x86_64-pc-linux-gnu file names to arm-poky-linux-gnueabi format
-configure:4866: result: func_convert_file_noop
-configure:4873: checking how to convert x86_64-pc-linux-gnu file names to toolchain format
-configure:4893: result: func_convert_file_noop
-configure:4900: checking for arm-poky-linux-gnueabi-ld  --sysroot=/opt/poky/2.5.1/sysroots/cortexa7hf-neon-vfpv4-poky-linux-gnueabi option to reload object files
-configure:4907: result: -r
-configure:4941: checking for arm-poky-linux-gnueabi-objdump
-configure:4968: result: arm-poky-linux-gnueabi-objdump
-configure:5040: checking how to recognize dependent libraries
-configure:5240: result: pass_all
-configure:5285: checking for arm-poky-linux-gnueabi-dlltool
-configure:5315: result: no
-configure:5325: checking for dlltool
-configure:5355: result: no
-configure:5385: checking how to associate runtime and link libraries
-configure:5412: result: printf %s\n
-configure:5428: checking for arm-poky-linux-gnueabi-ar
-configure:5455: result: arm-poky-linux-gnueabi-ar
-configure:5536: checking for archiver @FILE support
-configure:5553: arm-poky-linux-gnueabi-gcc  -march=armv7ve -marm -mfpu=neon-vfpv4 -mfloat-abi=hard -mcpu=cortex-a7 --sysroot=/opt/poky/2.5.1/sysroots/cortexa7hf-neon-vfpv4-poky-linux-gnueabi -c  -O2 -pipe -g -feliminate-unused-debug-types   conftest.c >&5
-configure:5553: $? = 0
-configure:5556: arm-poky-linux-gnueabi-ar cru libconftest.a @conftest.lst >&5
+configure:4633: result: BSD nm
+configure:4636: checking whether ln -s works
+configure:4640: result: yes
+configure:4648: checking the maximum length of command line arguments
+configure:4779: result: 1572864
+configure:4827: checking how to convert x86_64-pc-linux-gnu file names to arm-poky-linux-gnueabi format
+configure:4867: result: func_convert_file_noop
+configure:4874: checking how to convert x86_64-pc-linux-gnu file names to toolchain format
+configure:4894: result: func_convert_file_noop
+configure:4901: checking for arm-poky-linux-gnueabi-ld  --sysroot=/opt/poky/2.5.1/sysroots/cortexa7hf-neon-vfpv4-poky-linux-gnueabi option to reload object files
+configure:4908: result: -r
+configure:4942: checking for arm-poky-linux-gnueabi-objdump
+configure:4969: result: arm-poky-linux-gnueabi-objdump
+configure:5041: checking how to recognize dependent libraries
+configure:5241: result: pass_all
+configure:5286: checking for arm-poky-linux-gnueabi-dlltool
+configure:5316: result: no
+configure:5326: checking for dlltool
+configure:5356: result: no
+configure:5386: checking how to associate runtime and link libraries
+configure:5413: result: printf %s\n
+configure:5429: checking for arm-poky-linux-gnueabi-ar
+configure:5456: result: arm-poky-linux-gnueabi-ar
+configure:5537: checking for archiver @FILE support
+configure:5554: arm-poky-linux-gnueabi-gcc  -march=armv7ve -marm -mfpu=neon-vfpv4 -mfloat-abi=hard -mcpu=cortex-a7 --sysroot=/opt/poky/2.5.1/sysroots/cortexa7hf-neon-vfpv4-poky-linux-gnueabi -c  -O2 -pipe -g -feliminate-unused-debug-types   conftest.c >&5
+configure:5554: $? = 0
+configure:5557: arm-poky-linux-gnueabi-ar cru libconftest.a @conftest.lst >&5
 arm-poky-linux-gnueabi-ar: `u' modifier ignored since `D' is the default (see `U')
-configure:5559: $? = 0
-configure:5564: arm-poky-linux-gnueabi-ar cru libconftest.a @conftest.lst >&5
+configure:5560: $? = 0
+configure:5565: arm-poky-linux-gnueabi-ar cru libconftest.a @conftest.lst >&5
 arm-poky-linux-gnueabi-ar: `u' modifier ignored since `D' is the default (see `U')
 arm-poky-linux-gnueabi-ar: conftest.o: No such file or directory
-configure:5567: $? = 1
-configure:5579: result: @
-configure:5597: checking for arm-poky-linux-gnueabi-strip
-configure:5624: result: arm-poky-linux-gnueabi-strip
-configure:5696: checking for arm-poky-linux-gnueabi-ranlib
-configure:5723: result: arm-poky-linux-gnueabi-ranlib
-configure:5865: checking command to parse arm-poky-linux-gnueabi-nm output from arm-poky-linux-gnueabi-gcc  -march=armv7ve -marm -mfpu=neon-vfpv4 -mfloat-abi=hard -mcpu=cortex-a7 --sysroot=/opt/poky/2.5.1/sysroots/cortexa7hf-neon-vfpv4-poky-linux-gnueabi object
-configure:6018: arm-poky-linux-gnueabi-gcc  -march=armv7ve -marm -mfpu=neon-vfpv4 -mfloat-abi=hard -mcpu=cortex-a7 --sysroot=/opt/poky/2.5.1/sysroots/cortexa7hf-neon-vfpv4-poky-linux-gnueabi -c  -O2 -pipe -g -feliminate-unused-debug-types   conftest.c >&5
-configure:6021: $? = 0
-configure:6025: arm-poky-linux-gnueabi-nm conftest.o \| sed -n -e 's/^.*[ ]\([ABCDGIRSTW][ABCDGIRSTW]*\)[ ][ ]*\([_A-Za-z][_A-Za-z0-9]*\)$/\1 \2 \2/p' | sed '/ __gnu_lto/d' \> conftest.nm
-configure:6028: $? = 0
-configure:6094: arm-poky-linux-gnueabi-gcc  -march=armv7ve -marm -mfpu=neon-vfpv4 -mfloat-abi=hard -mcpu=cortex-a7 --sysroot=/opt/poky/2.5.1/sysroots/cortexa7hf-neon-vfpv4-poky-linux-gnueabi -o conftest  -O2 -pipe -g -feliminate-unused-debug-types   -Wl,-O1 -Wl,--hash-style=gnu -Wl,--as-needed conftest.c conftstm.o >&5
-configure:6097: $? = 0
-configure:6135: result: ok
-configure:6182: checking for sysroot
-configure:6212: result: no
-configure:6219: checking for a working dd
-configure:6257: result: /bin/dd
-configure:6261: checking how to truncate binary pipes
-configure:6276: result: /bin/dd bs=4096 count=1
-configure:6565: checking for arm-poky-linux-gnueabi-mt
-configure:6595: result: no
-configure:6605: checking for mt
-configure:6621: found /bin/mt
-configure:6632: result: mt
-configure:6644: WARNING: using cross tools not prefixed with host triplet
-configure:6655: checking if mt is a manifest tool
-configure:6661: mt '-?'
-configure:6669: result: no
-configure:7346: checking how to run the C preprocessor
-configure:7416: result: arm-poky-linux-gnueabi-gcc -E  -march=armv7ve -marm -mfpu=neon-vfpv4 -mfloat-abi=hard -mcpu=cortex-a7 --sysroot=/opt/poky/2.5.1/sysroots/cortexa7hf-neon-vfpv4-poky-linux-gnueabi
-configure:7436: arm-poky-linux-gnueabi-gcc -E  -march=armv7ve -marm -mfpu=neon-vfpv4 -mfloat-abi=hard -mcpu=cortex-a7 --sysroot=/opt/poky/2.5.1/sysroots/cortexa7hf-neon-vfpv4-poky-linux-gnueabi  conftest.c
-configure:7436: $? = 0
-configure:7450: arm-poky-linux-gnueabi-gcc -E  -march=armv7ve -marm -mfpu=neon-vfpv4 -mfloat-abi=hard -mcpu=cortex-a7 --sysroot=/opt/poky/2.5.1/sysroots/cortexa7hf-neon-vfpv4-poky-linux-gnueabi  conftest.c
+configure:5568: $? = 1
+configure:5580: result: @
+configure:5598: checking for arm-poky-linux-gnueabi-strip
+configure:5625: result: arm-poky-linux-gnueabi-strip
+configure:5697: checking for arm-poky-linux-gnueabi-ranlib
+configure:5724: result: arm-poky-linux-gnueabi-ranlib
+configure:5866: checking command to parse arm-poky-linux-gnueabi-nm output from arm-poky-linux-gnueabi-gcc  -march=armv7ve -marm -mfpu=neon-vfpv4 -mfloat-abi=hard -mcpu=cortex-a7 --sysroot=/opt/poky/2.5.1/sysroots/cortexa7hf-neon-vfpv4-poky-linux-gnueabi object
+configure:6019: arm-poky-linux-gnueabi-gcc  -march=armv7ve -marm -mfpu=neon-vfpv4 -mfloat-abi=hard -mcpu=cortex-a7 --sysroot=/opt/poky/2.5.1/sysroots/cortexa7hf-neon-vfpv4-poky-linux-gnueabi -c  -O2 -pipe -g -feliminate-unused-debug-types   conftest.c >&5
+configure:6022: $? = 0
+configure:6026: arm-poky-linux-gnueabi-nm conftest.o \| sed -n -e 's/^.*[ ]\([ABCDGIRSTW][ABCDGIRSTW]*\)[ ][ ]*\([_A-Za-z][_A-Za-z0-9]*\)$/\1 \2 \2/p' | sed '/ __gnu_lto/d' \> conftest.nm
+configure:6029: $? = 0
+configure:6095: arm-poky-linux-gnueabi-gcc  -march=armv7ve -marm -mfpu=neon-vfpv4 -mfloat-abi=hard -mcpu=cortex-a7 --sysroot=/opt/poky/2.5.1/sysroots/cortexa7hf-neon-vfpv4-poky-linux-gnueabi -o conftest  -O2 -pipe -g -feliminate-unused-debug-types   -Wl,-O1 -Wl,--hash-style=gnu -Wl,--as-needed conftest.c conftstm.o >&5
+configure:6098: $? = 0
+configure:6136: result: ok
+configure:6183: checking for sysroot
+configure:6218: result: /opt/poky/2.5.1/sysroots/cortexa7hf-neon-vfpv4-poky-linux-gnueabi
+configure:6225: checking for a working dd
+configure:6263: result: /bin/dd
+configure:6267: checking how to truncate binary pipes
+configure:6282: result: /bin/dd bs=4096 count=1
+configure:6571: checking for arm-poky-linux-gnueabi-mt
+configure:6601: result: no
+configure:6611: checking for mt
+configure:6627: found /bin/mt
+configure:6638: result: mt
+configure:6650: WARNING: using cross tools not prefixed with host triplet
+configure:6661: checking if mt is a manifest tool
+configure:6667: mt '-?'
+configure:6675: result: no
+configure:7352: checking how to run the C preprocessor
+configure:7422: result: arm-poky-linux-gnueabi-gcc -E  -march=armv7ve -marm -mfpu=neon-vfpv4 -mfloat-abi=hard -mcpu=cortex-a7 --sysroot=/opt/poky/2.5.1/sysroots/cortexa7hf-neon-vfpv4-poky-linux-gnueabi
+configure:7442: arm-poky-linux-gnueabi-gcc -E  -march=armv7ve -marm -mfpu=neon-vfpv4 -mfloat-abi=hard -mcpu=cortex-a7 --sysroot=/opt/poky/2.5.1/sysroots/cortexa7hf-neon-vfpv4-poky-linux-gnueabi  conftest.c
+configure:7442: $? = 0
+configure:7456: arm-poky-linux-gnueabi-gcc -E  -march=armv7ve -marm -mfpu=neon-vfpv4 -mfloat-abi=hard -mcpu=cortex-a7 --sysroot=/opt/poky/2.5.1/sysroots/cortexa7hf-neon-vfpv4-poky-linux-gnueabi  conftest.c
 conftest.c:11:10: fatal error: ac_nonexistent.h: No such file or directory
  #include <ac_nonexistent.h>
           ^~~~~~~~~~~~~~~~~~
 compilation terminated.
-configure:7450: $? = 1
+configure:7456: $? = 1
 configure: failed program was:
 | /* confdefs.h */
 | #define PACKAGE_NAME "gpiorasp2"
@@ -882,94 +1036,94 @@ configure: failed program was:
 | #define VERSION "1.0"
 | /* end confdefs.h.  */
 | #include <ac_nonexistent.h>
-configure:7479: checking for ANSI C header files
-configure:7499: arm-poky-linux-gnueabi-gcc  -march=armv7ve -marm -mfpu=neon-vfpv4 -mfloat-abi=hard -mcpu=cortex-a7 --sysroot=/opt/poky/2.5.1/sysroots/cortexa7hf-neon-vfpv4-poky-linux-gnueabi -c  -O2 -pipe -g -feliminate-unused-debug-types   conftest.c >&5
-configure:7499: $? = 0
-configure:7583: result: yes
-configure:7596: checking for sys/types.h
-configure:7596: arm-poky-linux-gnueabi-gcc  -march=armv7ve -marm -mfpu=neon-vfpv4 -mfloat-abi=hard -mcpu=cortex-a7 --sysroot=/opt/poky/2.5.1/sysroots/cortexa7hf-neon-vfpv4-poky-linux-gnueabi -c  -O2 -pipe -g -feliminate-unused-debug-types   conftest.c >&5
-configure:7596: $? = 0
-configure:7596: result: yes
-configure:7596: checking for sys/stat.h
-configure:7596: arm-poky-linux-gnueabi-gcc  -march=armv7ve -marm -mfpu=neon-vfpv4 -mfloat-abi=hard -mcpu=cortex-a7 --sysroot=/opt/poky/2.5.1/sysroots/cortexa7hf-neon-vfpv4-poky-linux-gnueabi -c  -O2 -pipe -g -feliminate-unused-debug-types   conftest.c >&5
-configure:7596: $? = 0
-configure:7596: result: yes
-configure:7596: checking for stdlib.h
-configure:7596: arm-poky-linux-gnueabi-gcc  -march=armv7ve -marm -mfpu=neon-vfpv4 -mfloat-abi=hard -mcpu=cortex-a7 --sysroot=/opt/poky/2.5.1/sysroots/cortexa7hf-neon-vfpv4-poky-linux-gnueabi -c  -O2 -pipe -g -feliminate-unused-debug-types   conftest.c >&5
-configure:7596: $? = 0
-configure:7596: result: yes
-configure:7596: checking for string.h
-configure:7596: arm-poky-linux-gnueabi-gcc  -march=armv7ve -marm -mfpu=neon-vfpv4 -mfloat-abi=hard -mcpu=cortex-a7 --sysroot=/opt/poky/2.5.1/sysroots/cortexa7hf-neon-vfpv4-poky-linux-gnueabi -c  -O2 -pipe -g -feliminate-unused-debug-types   conftest.c >&5
-configure:7596: $? = 0
-configure:7596: result: yes
-configure:7596: checking for memory.h
-configure:7596: arm-poky-linux-gnueabi-gcc  -march=armv7ve -marm -mfpu=neon-vfpv4 -mfloat-abi=hard -mcpu=cortex-a7 --sysroot=/opt/poky/2.5.1/sysroots/cortexa7hf-neon-vfpv4-poky-linux-gnueabi -c  -O2 -pipe -g -feliminate-unused-debug-types   conftest.c >&5
-configure:7596: $? = 0
-configure:7596: result: yes
-configure:7596: checking for strings.h
-configure:7596: arm-poky-linux-gnueabi-gcc  -march=armv7ve -marm -mfpu=neon-vfpv4 -mfloat-abi=hard -mcpu=cortex-a7 --sysroot=/opt/poky/2.5.1/sysroots/cortexa7hf-neon-vfpv4-poky-linux-gnueabi -c  -O2 -pipe -g -feliminate-unused-debug-types   conftest.c >&5
-configure:7596: $? = 0
-configure:7596: result: yes
-configure:7596: checking for inttypes.h
-configure:7596: arm-poky-linux-gnueabi-gcc  -march=armv7ve -marm -mfpu=neon-vfpv4 -mfloat-abi=hard -mcpu=cortex-a7 --sysroot=/opt/poky/2.5.1/sysroots/cortexa7hf-neon-vfpv4-poky-linux-gnueabi -c  -O2 -pipe -g -feliminate-unused-debug-types   conftest.c >&5
-configure:7596: $? = 0
-configure:7596: result: yes
-configure:7596: checking for stdint.h
-configure:7596: arm-poky-linux-gnueabi-gcc  -march=armv7ve -marm -mfpu=neon-vfpv4 -mfloat-abi=hard -mcpu=cortex-a7 --sysroot=/opt/poky/2.5.1/sysroots/cortexa7hf-neon-vfpv4-poky-linux-gnueabi -c  -O2 -pipe -g -feliminate-unused-debug-types   conftest.c >&5
-configure:7596: $? = 0
-configure:7596: result: yes
-configure:7596: checking for unistd.h
-configure:7596: arm-poky-linux-gnueabi-gcc  -march=armv7ve -marm -mfpu=neon-vfpv4 -mfloat-abi=hard -mcpu=cortex-a7 --sysroot=/opt/poky/2.5.1/sysroots/cortexa7hf-neon-vfpv4-poky-linux-gnueabi -c  -O2 -pipe -g -feliminate-unused-debug-types   conftest.c >&5
-configure:7596: $? = 0
-configure:7596: result: yes
-configure:7610: checking for dlfcn.h
-configure:7610: arm-poky-linux-gnueabi-gcc  -march=armv7ve -marm -mfpu=neon-vfpv4 -mfloat-abi=hard -mcpu=cortex-a7 --sysroot=/opt/poky/2.5.1/sysroots/cortexa7hf-neon-vfpv4-poky-linux-gnueabi -c  -O2 -pipe -g -feliminate-unused-debug-types   conftest.c >&5
-configure:7610: $? = 0
-configure:7610: result: yes
-configure:7866: checking for objdir
-configure:7881: result: .libs
-configure:8145: checking if arm-poky-linux-gnueabi-gcc  -march=armv7ve -marm -mfpu=neon-vfpv4 -mfloat-abi=hard -mcpu=cortex-a7 --sysroot=/opt/poky/2.5.1/sysroots/cortexa7hf-neon-vfpv4-poky-linux-gnueabi supports -fno-rtti -fno-exceptions
-configure:8163: arm-poky-linux-gnueabi-gcc  -march=armv7ve -marm -mfpu=neon-vfpv4 -mfloat-abi=hard -mcpu=cortex-a7 --sysroot=/opt/poky/2.5.1/sysroots/cortexa7hf-neon-vfpv4-poky-linux-gnueabi -c  -O2 -pipe -g -feliminate-unused-debug-types   -fno-rtti -fno-exceptions conftest.c >&5
+configure:7485: checking for ANSI C header files
+configure:7505: arm-poky-linux-gnueabi-gcc  -march=armv7ve -marm -mfpu=neon-vfpv4 -mfloat-abi=hard -mcpu=cortex-a7 --sysroot=/opt/poky/2.5.1/sysroots/cortexa7hf-neon-vfpv4-poky-linux-gnueabi -c  -O2 -pipe -g -feliminate-unused-debug-types   conftest.c >&5
+configure:7505: $? = 0
+configure:7589: result: yes
+configure:7602: checking for sys/types.h
+configure:7602: arm-poky-linux-gnueabi-gcc  -march=armv7ve -marm -mfpu=neon-vfpv4 -mfloat-abi=hard -mcpu=cortex-a7 --sysroot=/opt/poky/2.5.1/sysroots/cortexa7hf-neon-vfpv4-poky-linux-gnueabi -c  -O2 -pipe -g -feliminate-unused-debug-types   conftest.c >&5
+configure:7602: $? = 0
+configure:7602: result: yes
+configure:7602: checking for sys/stat.h
+configure:7602: arm-poky-linux-gnueabi-gcc  -march=armv7ve -marm -mfpu=neon-vfpv4 -mfloat-abi=hard -mcpu=cortex-a7 --sysroot=/opt/poky/2.5.1/sysroots/cortexa7hf-neon-vfpv4-poky-linux-gnueabi -c  -O2 -pipe -g -feliminate-unused-debug-types   conftest.c >&5
+configure:7602: $? = 0
+configure:7602: result: yes
+configure:7602: checking for stdlib.h
+configure:7602: arm-poky-linux-gnueabi-gcc  -march=armv7ve -marm -mfpu=neon-vfpv4 -mfloat-abi=hard -mcpu=cortex-a7 --sysroot=/opt/poky/2.5.1/sysroots/cortexa7hf-neon-vfpv4-poky-linux-gnueabi -c  -O2 -pipe -g -feliminate-unused-debug-types   conftest.c >&5
+configure:7602: $? = 0
+configure:7602: result: yes
+configure:7602: checking for string.h
+configure:7602: arm-poky-linux-gnueabi-gcc  -march=armv7ve -marm -mfpu=neon-vfpv4 -mfloat-abi=hard -mcpu=cortex-a7 --sysroot=/opt/poky/2.5.1/sysroots/cortexa7hf-neon-vfpv4-poky-linux-gnueabi -c  -O2 -pipe -g -feliminate-unused-debug-types   conftest.c >&5
+configure:7602: $? = 0
+configure:7602: result: yes
+configure:7602: checking for memory.h
+configure:7602: arm-poky-linux-gnueabi-gcc  -march=armv7ve -marm -mfpu=neon-vfpv4 -mfloat-abi=hard -mcpu=cortex-a7 --sysroot=/opt/poky/2.5.1/sysroots/cortexa7hf-neon-vfpv4-poky-linux-gnueabi -c  -O2 -pipe -g -feliminate-unused-debug-types   conftest.c >&5
+configure:7602: $? = 0
+configure:7602: result: yes
+configure:7602: checking for strings.h
+configure:7602: arm-poky-linux-gnueabi-gcc  -march=armv7ve -marm -mfpu=neon-vfpv4 -mfloat-abi=hard -mcpu=cortex-a7 --sysroot=/opt/poky/2.5.1/sysroots/cortexa7hf-neon-vfpv4-poky-linux-gnueabi -c  -O2 -pipe -g -feliminate-unused-debug-types   conftest.c >&5
+configure:7602: $? = 0
+configure:7602: result: yes
+configure:7602: checking for inttypes.h
+configure:7602: arm-poky-linux-gnueabi-gcc  -march=armv7ve -marm -mfpu=neon-vfpv4 -mfloat-abi=hard -mcpu=cortex-a7 --sysroot=/opt/poky/2.5.1/sysroots/cortexa7hf-neon-vfpv4-poky-linux-gnueabi -c  -O2 -pipe -g -feliminate-unused-debug-types   conftest.c >&5
+configure:7602: $? = 0
+configure:7602: result: yes
+configure:7602: checking for stdint.h
+configure:7602: arm-poky-linux-gnueabi-gcc  -march=armv7ve -marm -mfpu=neon-vfpv4 -mfloat-abi=hard -mcpu=cortex-a7 --sysroot=/opt/poky/2.5.1/sysroots/cortexa7hf-neon-vfpv4-poky-linux-gnueabi -c  -O2 -pipe -g -feliminate-unused-debug-types   conftest.c >&5
+configure:7602: $? = 0
+configure:7602: result: yes
+configure:7602: checking for unistd.h
+configure:7602: arm-poky-linux-gnueabi-gcc  -march=armv7ve -marm -mfpu=neon-vfpv4 -mfloat-abi=hard -mcpu=cortex-a7 --sysroot=/opt/poky/2.5.1/sysroots/cortexa7hf-neon-vfpv4-poky-linux-gnueabi -c  -O2 -pipe -g -feliminate-unused-debug-types   conftest.c >&5
+configure:7602: $? = 0
+configure:7602: result: yes
+configure:7616: checking for dlfcn.h
+configure:7616: arm-poky-linux-gnueabi-gcc  -march=armv7ve -marm -mfpu=neon-vfpv4 -mfloat-abi=hard -mcpu=cortex-a7 --sysroot=/opt/poky/2.5.1/sysroots/cortexa7hf-neon-vfpv4-poky-linux-gnueabi -c  -O2 -pipe -g -feliminate-unused-debug-types   conftest.c >&5
+configure:7616: $? = 0
+configure:7616: result: yes
+configure:7873: checking for objdir
+configure:7888: result: .libs
+configure:8152: checking if arm-poky-linux-gnueabi-gcc  -march=armv7ve -marm -mfpu=neon-vfpv4 -mfloat-abi=hard -mcpu=cortex-a7 --sysroot=/opt/poky/2.5.1/sysroots/cortexa7hf-neon-vfpv4-poky-linux-gnueabi supports -fno-rtti -fno-exceptions
+configure:8170: arm-poky-linux-gnueabi-gcc  -march=armv7ve -marm -mfpu=neon-vfpv4 -mfloat-abi=hard -mcpu=cortex-a7 --sysroot=/opt/poky/2.5.1/sysroots/cortexa7hf-neon-vfpv4-poky-linux-gnueabi -c  -O2 -pipe -g -feliminate-unused-debug-types   -fno-rtti -fno-exceptions conftest.c >&5
 cc1: warning: command line option '-fno-rtti' is valid for C++/ObjC++ but not for C
-configure:8167: $? = 0
-configure:8180: result: no
-configure:8538: checking for arm-poky-linux-gnueabi-gcc  -march=armv7ve -marm -mfpu=neon-vfpv4 -mfloat-abi=hard -mcpu=cortex-a7 --sysroot=/opt/poky/2.5.1/sysroots/cortexa7hf-neon-vfpv4-poky-linux-gnueabi option to produce PIC
-configure:8545: result: -fPIC -DPIC
-configure:8553: checking if arm-poky-linux-gnueabi-gcc  -march=armv7ve -marm -mfpu=neon-vfpv4 -mfloat-abi=hard -mcpu=cortex-a7 --sysroot=/opt/poky/2.5.1/sysroots/cortexa7hf-neon-vfpv4-poky-linux-gnueabi PIC flag -fPIC -DPIC works
-configure:8571: arm-poky-linux-gnueabi-gcc  -march=armv7ve -marm -mfpu=neon-vfpv4 -mfloat-abi=hard -mcpu=cortex-a7 --sysroot=/opt/poky/2.5.1/sysroots/cortexa7hf-neon-vfpv4-poky-linux-gnueabi -c  -O2 -pipe -g -feliminate-unused-debug-types   -fPIC -DPIC -DPIC conftest.c >&5
-configure:8575: $? = 0
-configure:8588: result: yes
-configure:8617: checking if arm-poky-linux-gnueabi-gcc  -march=armv7ve -marm -mfpu=neon-vfpv4 -mfloat-abi=hard -mcpu=cortex-a7 --sysroot=/opt/poky/2.5.1/sysroots/cortexa7hf-neon-vfpv4-poky-linux-gnueabi static flag -static works
-configure:8645: result: no
-configure:8660: checking if arm-poky-linux-gnueabi-gcc  -march=armv7ve -marm -mfpu=neon-vfpv4 -mfloat-abi=hard -mcpu=cortex-a7 --sysroot=/opt/poky/2.5.1/sysroots/cortexa7hf-neon-vfpv4-poky-linux-gnueabi supports -c -o file.o
-configure:8681: arm-poky-linux-gnueabi-gcc  -march=armv7ve -marm -mfpu=neon-vfpv4 -mfloat-abi=hard -mcpu=cortex-a7 --sysroot=/opt/poky/2.5.1/sysroots/cortexa7hf-neon-vfpv4-poky-linux-gnueabi -c  -O2 -pipe -g -feliminate-unused-debug-types   -o out/conftest2.o conftest.c >&5
-configure:8685: $? = 0
-configure:8707: result: yes
-configure:8715: checking if arm-poky-linux-gnueabi-gcc  -march=armv7ve -marm -mfpu=neon-vfpv4 -mfloat-abi=hard -mcpu=cortex-a7 --sysroot=/opt/poky/2.5.1/sysroots/cortexa7hf-neon-vfpv4-poky-linux-gnueabi supports -c -o file.o
-configure:8762: result: yes
-configure:8795: checking whether the arm-poky-linux-gnueabi-gcc  -march=armv7ve -marm -mfpu=neon-vfpv4 -mfloat-abi=hard -mcpu=cortex-a7 --sysroot=/opt/poky/2.5.1/sysroots/cortexa7hf-neon-vfpv4-poky-linux-gnueabi linker (arm-poky-linux-gnueabi-ld  --sysroot=/opt/poky/2.5.1/sysroots/cortexa7hf-neon-vfpv4-poky-linux-gnueabi) supports shared libraries
-configure:10058: result: yes
-configure:10095: checking whether -lc should be explicitly linked in
-configure:10103: arm-poky-linux-gnueabi-gcc  -march=armv7ve -marm -mfpu=neon-vfpv4 -mfloat-abi=hard -mcpu=cortex-a7 --sysroot=/opt/poky/2.5.1/sysroots/cortexa7hf-neon-vfpv4-poky-linux-gnueabi -c  -O2 -pipe -g -feliminate-unused-debug-types   conftest.c >&5
-configure:10106: $? = 0
-configure:10121: arm-poky-linux-gnueabi-gcc  -march=armv7ve -marm -mfpu=neon-vfpv4 -mfloat-abi=hard -mcpu=cortex-a7 --sysroot=/opt/poky/2.5.1/sysroots/cortexa7hf-neon-vfpv4-poky-linux-gnueabi -shared  -fPIC -DPIC conftest.o  -v -Wl,-soname -Wl,conftest -o conftest 2\>\&1 \| /bin/grep  -lc  \>/dev/null 2\>\&1
-configure:10124: $? = 0
-configure:10138: result: no
-configure:10298: checking dynamic linker characteristics
-configure:10879: arm-poky-linux-gnueabi-gcc  -march=armv7ve -marm -mfpu=neon-vfpv4 -mfloat-abi=hard -mcpu=cortex-a7 --sysroot=/opt/poky/2.5.1/sysroots/cortexa7hf-neon-vfpv4-poky-linux-gnueabi -o conftest  -O2 -pipe -g -feliminate-unused-debug-types   -Wl,-O1 -Wl,--hash-style=gnu -Wl,--as-needed -Wl,-rpath -Wl,/foo conftest.c  >&5
-configure:10879: $? = 0
-configure:11128: result: GNU/Linux ld.so
-configure:11250: checking how to hardcode library paths into programs
-configure:11275: result: immediate
-configure:11823: checking whether stripping libraries is possible
-configure:11828: result: yes
-configure:11863: checking if libtool supports shared libraries
-configure:11865: result: yes
-configure:11868: checking whether to build shared libraries
-configure:11893: result: yes
-configure:11896: checking whether to build static libraries
-configure:11900: result: yes
-configure:12071: creating ./config.status
+configure:8174: $? = 0
+configure:8187: result: no
+configure:8545: checking for arm-poky-linux-gnueabi-gcc  -march=armv7ve -marm -mfpu=neon-vfpv4 -mfloat-abi=hard -mcpu=cortex-a7 --sysroot=/opt/poky/2.5.1/sysroots/cortexa7hf-neon-vfpv4-poky-linux-gnueabi option to produce PIC
+configure:8552: result: -fPIC -DPIC
+configure:8560: checking if arm-poky-linux-gnueabi-gcc  -march=armv7ve -marm -mfpu=neon-vfpv4 -mfloat-abi=hard -mcpu=cortex-a7 --sysroot=/opt/poky/2.5.1/sysroots/cortexa7hf-neon-vfpv4-poky-linux-gnueabi PIC flag -fPIC -DPIC works
+configure:8578: arm-poky-linux-gnueabi-gcc  -march=armv7ve -marm -mfpu=neon-vfpv4 -mfloat-abi=hard -mcpu=cortex-a7 --sysroot=/opt/poky/2.5.1/sysroots/cortexa7hf-neon-vfpv4-poky-linux-gnueabi -c  -O2 -pipe -g -feliminate-unused-debug-types   -fPIC -DPIC -DPIC conftest.c >&5
+configure:8582: $? = 0
+configure:8595: result: yes
+configure:8624: checking if arm-poky-linux-gnueabi-gcc  -march=armv7ve -marm -mfpu=neon-vfpv4 -mfloat-abi=hard -mcpu=cortex-a7 --sysroot=/opt/poky/2.5.1/sysroots/cortexa7hf-neon-vfpv4-poky-linux-gnueabi static flag -static works
+configure:8652: result: no
+configure:8667: checking if arm-poky-linux-gnueabi-gcc  -march=armv7ve -marm -mfpu=neon-vfpv4 -mfloat-abi=hard -mcpu=cortex-a7 --sysroot=/opt/poky/2.5.1/sysroots/cortexa7hf-neon-vfpv4-poky-linux-gnueabi supports -c -o file.o
+configure:8688: arm-poky-linux-gnueabi-gcc  -march=armv7ve -marm -mfpu=neon-vfpv4 -mfloat-abi=hard -mcpu=cortex-a7 --sysroot=/opt/poky/2.5.1/sysroots/cortexa7hf-neon-vfpv4-poky-linux-gnueabi -c  -O2 -pipe -g -feliminate-unused-debug-types   -o out/conftest2.o conftest.c >&5
+configure:8692: $? = 0
+configure:8714: result: yes
+configure:8722: checking if arm-poky-linux-gnueabi-gcc  -march=armv7ve -marm -mfpu=neon-vfpv4 -mfloat-abi=hard -mcpu=cortex-a7 --sysroot=/opt/poky/2.5.1/sysroots/cortexa7hf-neon-vfpv4-poky-linux-gnueabi supports -c -o file.o
+configure:8769: result: yes
+configure:8802: checking whether the arm-poky-linux-gnueabi-gcc  -march=armv7ve -marm -mfpu=neon-vfpv4 -mfloat-abi=hard -mcpu=cortex-a7 --sysroot=/opt/poky/2.5.1/sysroots/cortexa7hf-neon-vfpv4-poky-linux-gnueabi linker (arm-poky-linux-gnueabi-ld  --sysroot=/opt/poky/2.5.1/sysroots/cortexa7hf-neon-vfpv4-poky-linux-gnueabi) supports shared libraries
+configure:10061: result: yes
+configure:10098: checking whether -lc should be explicitly linked in
+configure:10106: arm-poky-linux-gnueabi-gcc  -march=armv7ve -marm -mfpu=neon-vfpv4 -mfloat-abi=hard -mcpu=cortex-a7 --sysroot=/opt/poky/2.5.1/sysroots/cortexa7hf-neon-vfpv4-poky-linux-gnueabi -c  -O2 -pipe -g -feliminate-unused-debug-types   conftest.c >&5
+configure:10109: $? = 0
+configure:10124: arm-poky-linux-gnueabi-gcc  -march=armv7ve -marm -mfpu=neon-vfpv4 -mfloat-abi=hard -mcpu=cortex-a7 --sysroot=/opt/poky/2.5.1/sysroots/cortexa7hf-neon-vfpv4-poky-linux-gnueabi -shared  -fPIC -DPIC conftest.o  -v -Wl,-soname -Wl,conftest -o conftest 2\>\&1 \| /bin/grep  -lc  \>/dev/null 2\>\&1
+configure:10127: $? = 0
+configure:10141: result: no
+configure:10301: checking dynamic linker characteristics
+configure:10882: arm-poky-linux-gnueabi-gcc  -march=armv7ve -marm -mfpu=neon-vfpv4 -mfloat-abi=hard -mcpu=cortex-a7 --sysroot=/opt/poky/2.5.1/sysroots/cortexa7hf-neon-vfpv4-poky-linux-gnueabi -o conftest  -O2 -pipe -g -feliminate-unused-debug-types   -Wl,-O1 -Wl,--hash-style=gnu -Wl,--as-needed -Wl,-rpath -Wl,/foo conftest.c  >&5
+configure:10882: $? = 0
+configure:11119: result: GNU/Linux ld.so
+configure:11241: checking how to hardcode library paths into programs
+configure:11266: result: immediate
+configure:11814: checking whether stripping libraries is possible
+configure:11819: result: yes
+configure:11854: checking if libtool supports shared libraries
+configure:11856: result: yes
+configure:11859: checking whether to build shared libraries
+configure:11884: result: yes
+configure:11887: checking whether to build static libraries
+configure:11891: result: yes
+configure:12062: creating ./config.status
 
 ## ---------------------- ##
 ## Running config.status. ##
@@ -1486,7 +1640,7 @@ LD='arm-poky-linux-gnueabi-ld  --sysroot=/opt/poky/2.5.1/sysroots/cortexa7hf-neo
 LDFLAGS='-Wl,-O1 -Wl,--hash-style=gnu -Wl,--as-needed'
 LIBOBJS=''
 LIBS=''
-LIBTOOL='$(SHELL) $(top_builddir)/libtool'
+LIBTOOL='$(top_builddir)/arm-poky-linux-gnueabi-libtool'
 LIPO=''
 LN_S='ln -s'
 LTLIBOBJS=''
