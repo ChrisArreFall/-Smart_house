@@ -1,0 +1,8 @@
+{
+    "files.associations": {
+        "*.asm": "arm",
+        "string.h": "c",
+        "stat.h": "c",
+        "inet.h": "c"
+    }
+}
