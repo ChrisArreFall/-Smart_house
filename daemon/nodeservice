@@ -9,8 +9,8 @@
 # Description:       Enable service provided by daemon.
 ### END INIT INFO
 
-dir="/home/root"
-cmd="node hello.js"
+dir="/"
+cmd="server -p 3000 -r /HTML/"
 user="root"
 
 name=`basename $0`

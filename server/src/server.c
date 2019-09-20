@@ -10,6 +10,7 @@
 #include<signal.h>
 #include<fcntl.h>
 #include<pthread.h>
+#include<dirent.h>
 
 // Include GPIO control
 #include "gpiorasp2.h"
@@ -51,12 +52,12 @@ void execute(char *);
 void *gpioInit(void *vargp);
 void readImages();
 int equals(char *,char);
+void generateIndexHTML();
 
 pthread_mutex_t lock;
 
 int main(int argc, char* argv[])
 {
-
 	// Unexport pin GPIO
 	GPIOUnexport(LLIVINGROOM);
 	GPIOUnexport(LDINNIGROOM);
@@ -260,6 +261,7 @@ void respond(int n)
 			}
 			else
 			{
+				generateIndexHTML();
 				if ( strncmp(reqline[1], "/\0", 2)==0 )
 					reqline[1] = "/index.html";        //Because if no file is specified, index.html will be opened by default (like it happens in APACHE...
 
@@ -285,11 +287,6 @@ void respond(int n)
 	close(clients[n]);
 	clients[n]=-1;
 }
-
-
-
-
-
 
 /**
  * Recive the msg from the server and execute the desired action
@@ -345,74 +342,28 @@ void execute(char * command){
 	}
 	else if(equals(command, 'B')) {
 		// Take Picture from web cam
-		int n = rand() % 100 + 1;
+		int file_count = 0;
+		DIR * dirp;
+		struct dirent * entry;
+
+		dirp = opendir("/HTML/images/"); /* There should be error handling after this */
+		while ((entry = readdir(dirp)) != NULL) {
+			if (entry->d_type == DT_REG) { /* If the entry is a regular file */
+				file_count++;
+			}
+		}
+		closedir(dirp);
+
+
+
 		char is[4];
-		snprintf(is, sizeof(is), "%d", n);
+		snprintf(is, sizeof(is), "%d", file_count);
 		takePic(is);
 		printf("TAKE PICTURE \n");
 	}
 	else {
 		printf("DEFAULT OPTION BUTTON \n");
 	}
-
-
-
-	// switch (command){
-	// 	case '0':
-	// 		// Write on bedroom light
-	// 		lbrstate = !lbrstate;
-	// 		printf("BR LIGHT \n");
-	// 		digitalWrite(LBEDROOM, lbrstate);
-	// 		break;
-	// 	case '1':
-	// 		// Write on master bedroom light
-	// 		lmbrstate = !lmbrstate;
-	// 		printf("MASTER BR LIGHT \n");
-	// 		digitalWrite(LMASTERBEDROOM, lmbrstate);
-	// 		break;
-	// 	case '2':
-	// 		// Write on kitchen light
-	// 		lkstate = !lkstate;
-	// 		printf("KITCHEN  LIGHT \n");
-	// 		digitalWrite(LKITCHEN, lkstate);
-	// 		break;
-	// 	case '3':
-	// 		// Write on dining room light
-	// 		ldrstate = !ldrstate;
-	// 		printf("DINNING ROOM LIGHT \n");
-	// 		digitalWrite(LDINNIGROOM, ldrstate);
-	// 		break;
-	// 	case '4':
-	// 		// Write on living room light
-	// 		llrstate = !llrstate;
-	// 		printf("LIVING ROOM LIGHT \n");
-	// 		digitalWrite(LLIVINGROOM, llrstate);
-	// 		break;
-	// 	case '5':
-	// 		// Negate the state of the back door
-	// 		dbstate = !dbstate;
-	// 		printf("BACK DOOR \n");
-	// 		break;
-	// 	case '6':
-	// 		// Negate the state of the front door
-	// 		dfstate = !dfstate;
-	// 		printf("FRONT DOOR \n");
-	// 		break;
-	// 	case '7':
-	// 		// Negate the state of the bedroom door
-	// 		dbrstate = !dbrstate;
-	// 		printf("BR DOOR \n");
-	// 		break;
-	// 	case '8':
-	// 		// Negate the state of the door
-	// 		dmbrstate = !dmbrstate;
-	// 		printf("MASTER BR DOOR \n");
-	// 		break;
-		
-	// 	default:
-	// 		printf("DEFAULT OPTION BUTTON \n");
-	// 		break;
-	// }
 	pthread_mutex_unlock(&lock);
 
 }
@@ -664,4 +615,107 @@ int equals(char * mesg,char value){
 		printf("FALSE");
 		return 0;
 	}
+}
+
+/**
+ * Load CSS
+ */
+void generateIndexHTML(){
+ //digitalRead()
+ int LLR = digitalRead(LLIVINGROOM);
+ int LDR = digitalRead(LDINNIGROOM);
+ int LKit = digitalRead(LKITCHEN);
+ int LBR = digitalRead(LBEDROOM);
+ int LMBR = digitalRead(LMASTERBEDROOM);
+ int DF = digitalRead(DSTATEFRONT);
+ int DB = digitalRead(DSTATEBACK);
+ int DBR = digitalRead(DSTATEBEDROOM);
+ int DMBR = digitalRead(DSTATEMASTERBEDROOM);
+ char * CLLR;
+ char * CLDR; 
+ char * CLKit;
+ char * CLBR; 
+ char * CLMBR; 
+ char * CDF; 
+ char * CDB; 
+ char * CDBR;
+ char * CDMBR; 
+ if(LLR){
+  CLLR = "blue";
+ }
+ else{
+  CLLR = "red";
+ }
+
+ if(LDR){
+  CLDR = "blue";
+ }
+ else{
+  CLDR = "red";
+ }
+
+ if(LKit){
+  CLKit = "blue";
+ }
+ else{
+  CLKit = "red";
+ }
+
+ if(LBR){
+  CLBR = "blue";
+ }
+ else{
+  CLBR = "red";
+ }
+
+ if(LMBR){
+  CLMBR = "blue";
+ }
+ else{
+  CLMBR = "red";
+ }
+
+ if(DF){
+  CDF = "blue";
+ }
+ else{
+  CDF = "red";
+ }
+
+ if(DB){
+  CDB = "blue";
+ }
+ else{
+  CDB = "red";
+ }
+
+ if(DBR){
+  CDBR = "blue";
+ }
+ else{
+  CDBR = "red";
+ }
+
+ if(DMBR){
+  CDMBR = "blue";
+ }
+ else{
+  CDMBR = "red";
+ }
+
+ 
+
+ char * css = ".center {display: block;margin-left: auto;margin-right: auto;width: 50%%;}.btnLightBR {background-color: %s; border: none;color: white;padding: 15px 32px;width : 270px;text-align: center;text-decoration: none;display: block;font-size: 16px;}.btnLightMBR {background-color: %s; border: none;color: white;padding: 15px 32px;width : 270px;text-align: center;text-decoration: none;display: block;font-size: 16px;}.btnLightKitchen {background-color: %s; border: none;color: white;padding: 15px 32px;width : 270px;text-align: center;text-decoration: none;display: block;font-size: 16px;}.btnLightDR {background-color: %s; border: none;color: white;padding: 15px 32px;width : 270px;text-align: center;text-decoration: none;display: block;font-size: 16px;}.btnLightLR {background-color: %s; border: none;color: white;padding: 15px 32px;width : 270px;text-align: center;text-decoration: none;display: block;font-size: 16px;}.btnDoorF {background-color: %s; border: none;color: white;padding: 15px 32px;width : 270px;text-align: center;text-decoration: none;display: block;font-size: 16px;}.btnDoorB {background-color: %s; border: none;color: white;padding: 15px 32px;width : 270px;text-align: center;text-decoration: none;display: block;font-size: 16px;}.btnDoorBR {background-color: %s; border: none;color: white;padding: 15px 32px;width : 270px;text-align: center;text-decoration: none;display: block;font-size: 16px;}.btnDoorMBR {background-color: %s; border: none;color: white;padding: 15px 32px;width : 270px;text-align: center;text-decoration: none;display: block;font-size: 16px;}.btnCapture {background-color: rgb(53, 53, 252); border: none;color: white;padding: 15px 32px;width : 270px;text-align: center;text-decoration: none;display: block;font-size: 16px;}.btnSeeImgs {background-color: rgb(53, 53, 252); border: none;color: white;padding: 15px 32px;width : 205px;text-align: center;text-decoration: none;display: block;font-size: 16px;}";
+
+ FILE *fptr;
+ fptr = fopen("HTML/css/styles.css", "w");
+ if(fptr == NULL)
+ {
+  printf("Error!");
+  exit(1);
+ }
+  
+ fprintf(fptr,css,CLBR,CLMBR,CLKit,CLDR,CLLR,CDF,CDB,CDBR,CDMBR);
+    fclose(fptr);
+ 
 }

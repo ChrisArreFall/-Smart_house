@@ -135,7 +135,7 @@ int digitalWrite(int pin, int value) {
  */
 int takePic(char name[5]) {
 	int imgStatus;
-	char nametmp[70] = "fswebcam --no-banner images/";
+	char nametmp[70] = "fswebcam --no-banner /HTML/images/";
 	strcat(nametmp, name);
 	strcat(nametmp, ".jpg");
     imgStatus = system(nametmp);
