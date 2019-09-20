@@ -1,6 +1,7 @@
 <!doctype html>
 
 <html lang="en">
+
 <head>
     <style>
         .center {
@@ -9,54 +10,60 @@
             margin-right: auto;
             width: 50%;
         }
+        
         .btnLightBR {
             position: absolute;
             left: 410px;
             top: 850px;
         }
+        
         .btnLightMBR {
             position: absolute;
             left: 755px;
             top: 850px;
         }
+        
         .btnLightKitchen {
             position: absolute;
             left: 755px;
             top: 395px;
         }
+        
         .btnLightDR {
             position: absolute;
             left: 740px;
             top: 225px;
         }
+        
         .btnLightLR {
             position: absolute;
             left: 375px;
             top: 395px;
         }
+        
         .btnDoorF {
             position: absolute;
             left: 570px;
             top: 30px;
         }
+        
         .btnDoorB {
             position: absolute;
             left: 590px;
             top: 20;
         }
+        
         .btnDoorBR {
             position: absolute;
             left: 510px;
             top: 850px;
         }
+        
         .btnDoorMBR {
             position: absolute;
             left: 660px;
             top: 850px;
         }
-
-        
-        
     </style>
     <meta charset="utf-8">
 
@@ -69,41 +76,43 @@
 </head>
 
 <body>
-  <div style="display: block; margin-left: auto; margin-right: auto;">
-    <img src="firstFloor.png" class="center">
-    <img src="secondFloor.png" class="center">
-    <button type="button" class="btnLightBR" onclick=httpPOST(0)>Light BR</button>
-    <button type="button" class="btnLightMBR" onclick=httpPOST(1)>Light Master BR</button>
-    <button type="button" class="btnLightKitchen" onclick=httpPOST(2)>Light Kitchen</button>
-    <button type="button" class="btnLightDR" onclick=httpPOST(3)>Light Dinning Room</button>
-    <button type="button" class="btnLightLR" onclick=httpPOST(4)>Light Living Room</button>
-    <button type="button" class="btnDoorB" onclick=httpPOST(5)>Door Back</button>
-    <button type="button" class="btnDoorF" onclick=httpPOST(6)>Door Front</button>
-    <button type="button" class="btnDoorBR" onclick=httpPOST(7)>Door BR</button>
-    <button type="button" class="btnDoorMBR"onclick=httpPOST(8)>Door MBR</button>
-    <button type="button" class="imagesButton"onclick=httpPOST(10)>Door MBR</button>
+    <div style="display: block; margin-left: auto; margin-right: auto;">
+        <img src="firstFloor.png" class="center">
+        <img src="secondFloor.png" class="center">
+        <button type="button" class="btnLightBR" onclick=httpPOST(0)>Light BR</button>
+        <button type="button" class="btnLightMBR" onclick=httpPOST(1)>Light Master BR</button>
+        <button type="button" class="btnLightKitchen" onclick=httpPOST(2)>Light Kitchen</button>
+        <button type="button" class="btnLightDR" onclick=httpPOST(3)>Light Dinning Room</button>
+        <button type="button" class="btnLightLR" onclick=httpPOST(4)>Light Living Room</button>
+        <button type="button" class="btnDoorB" onclick=httpPOST(5)>Door Back</button>
+        <button type="button" class="btnDoorF" onclick=httpPOST(6)>Door Front</button>
+        <button type="button" class="btnDoorBR" onclick=httpPOST(7)>Door BR</button>
+        <button type="button" class="btnDoorMBR" onclick=httpPOST(8)>Door MBR</button>
+        <button type="button" class="btnCapture" onclick=httpPOST(10)>Capture photo</button>
+        <button type="button" class="btnSeeImgs" onclick=httpPOST(11)>Watch photos</button>
 
-    <script>
-        function httpPOST(data){
+        <script>
+            function httpPOST(data) {
 
-            var xhr = new XMLHttpRequest();
-            xhr.withCredentials = true;
+                var xhr = new XMLHttpRequest();
+                xhr.withCredentials = true;
 
-            xhr.addEventListener("readystatechange", function () {
-            if (this.readyState === 4) {
-                console.log(this.responseText);
+                xhr.addEventListener("readystatechange", function() {
+                    if (this.readyState === 4) {
+                        console.log(this.responseText);
+                    }
+                });
+
+                xhr.open("POST", "http://192.168.100.91:3000");
+                xhr.setRequestHeader("cache-control", "no-cache");
+                xhr.setRequestHeader("Postman-Token", "bb2d356c-4f5a-4baa-91eb-a6a9bf0a238d");
+
+                xhr.send(data);
+                console.log("Printed!!!")
             }
-            });
+        </script>
 
-            xhr.open("POST", "http://10.42.0.253:3000");
-            xhr.setRequestHeader("cache-control", "no-cache");
-            xhr.setRequestHeader("Postman-Token", "bb2d356c-4f5a-4baa-91eb-a6a9bf0a238d");
-
-            xhr.send(data);
-            console.log("Printed!!!")
-        }
-    </script>
-
-  </div>
+    </div>
 </body>
+
 </html>
