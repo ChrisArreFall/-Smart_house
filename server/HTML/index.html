@@ -88,8 +88,8 @@
         <button type="button" class="btnDoorF" onclick=httpPOST(6)>Door Front</button>
         <button type="button" class="btnDoorBR" onclick=httpPOST(7)>Door BR</button>
         <button type="button" class="btnDoorMBR" onclick=httpPOST(8)>Door MBR</button>
-        <button type="button" class="btnCapture" onclick=httpPOST(10)>Capture photo</button>
-        <button type="button" class="btnSeeImgs" onclick=httpPOST(11)>Watch photos</button>
+        <button type="button" class="btnCapture" onclick=httpPOST('B')>Capture photo</button>
+        <a href="http://10.42.0.253:3000/images.html" class="btnSeeImgs" >Watch photos</a>
 
         <script>
             function httpPOST(data) {
@@ -103,14 +103,15 @@
                     }
                 });
 
-                xhr.open("POST", "http://192.168.100.91:3000");
+                xhr.open("POST", "http://10.42.0.253:3000");
                 xhr.setRequestHeader("cache-control", "no-cache");
                 xhr.setRequestHeader("Postman-Token", "bb2d356c-4f5a-4baa-91eb-a6a9bf0a238d");
 
-                xhr.send(data);
+                xhr.send(data+"$");
                 console.log("Printed!!!")
             }
         </script>
+        
 
     </div>
 </body>

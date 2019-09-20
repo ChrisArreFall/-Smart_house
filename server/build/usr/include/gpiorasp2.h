@@ -53,7 +53,7 @@ int digitalWrite(int, int);
 /**
  * Take a picture with the cam
  */
-int takePic();
+int takePic(char[5]);
 
 /**
  * Generate a blink in a given pin, with a given duration and frequency
